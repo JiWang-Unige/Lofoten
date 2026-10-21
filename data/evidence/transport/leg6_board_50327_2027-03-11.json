@@ -1,0 +1,308 @@
+{
+ "data": {
+  "stopPlace": {
+   "name": "Reine",
+   "estimatedCalls": [
+    {
+     "aimedDepartureTime": "2027-03-11T06:45:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Leknes - Svolvær - Narvik"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:3760_251012124855086_2012",
+      "line": {
+       "publicCode": "300",
+       "name": "Å-Leknes-Svolvær-Narvik",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Reine",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-11T07:25:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Hamnøy"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8772_251012124856049_1001",
+      "line": {
+       "publicCode": "772",
+       "name": "Å i Lofoten- Reine- Hamnøy",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Reine",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-11T07:45:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Å i Lofoten om Moskenes Ferjekai"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8772_251012124856054_2001",
+      "line": {
+       "publicCode": "772",
+       "name": "Å i Lofoten- Reine- Hamnøy",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Reine",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-11T09:20:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Leknes sentrum"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8742_251012124855807_1004",
+      "line": {
+       "publicCode": "742",
+       "name": "Leknes - Å i Lofoten",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Reine",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-11T09:57:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Å i Lofoten via Moskenes ferjekai"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8742_251012124857963_2007",
+      "line": {
+       "publicCode": "742",
+       "name": "Leknes - Å i Lofoten",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Reine",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-11T11:28:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Leknes - Svolvær - Narvik"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:3760_251012124859155_2015",
+      "line": {
+       "publicCode": "300",
+       "name": "Å-Leknes-Svolvær-Narvik",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Reine",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-11T11:50:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Å i Lofoten via Moskenes ferjekai"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8742_251012124855813_2004",
+      "line": {
+       "publicCode": "742",
+       "name": "Leknes - Å i Lofoten",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Reine",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-11T12:40:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Hamnøy"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8772_251012124856050_1004",
+      "line": {
+       "publicCode": "772",
+       "name": "Å i Lofoten- Reine- Hamnøy",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Reine",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-11T13:55:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Å i Lofoten via Moskenes ferjekai"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8742_251012124857957_2006",
+      "line": {
+       "publicCode": "742",
+       "name": "Leknes - Å i Lofoten",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Reine",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-11T16:23:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Leknes sentrum"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8742_251012124857422_1013",
+      "line": {
+       "publicCode": "742",
+       "name": "Leknes - Å i Lofoten",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Reine",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-11T17:02:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Å i Lofoten"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:3760_251012124859148_1018",
+      "line": {
+       "publicCode": "300",
+       "name": "Å-Leknes-Svolvær-Narvik",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Reine",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-11T20:23:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Leknes sentrum"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8742_251012124855809_1009",
+      "line": {
+       "publicCode": "742",
+       "name": "Leknes - Å i Lofoten",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Reine",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-11T22:55:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Å i Lofoten"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:3760_251012124859150_1015",
+      "line": {
+       "publicCode": "300",
+       "name": "Å-Leknes-Svolvær-Narvik",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Reine",
+      "publicCode": null
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-06T14:47:35+01:00",
+     "expectedEndTime": "2027-03-06T15:35:00+01:00",
+     "duration": 2845,
+     "walkDistance": 171.81,
+     "legs": [
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-06T14:47:35+01:00",
+       "aimedEndTime": "2027-03-06T14:50:00+01:00",
+       "distance": 171.81,
+       "fromPlace": {
+        "name": "Fr. Langes gate"
+       },
+       "toPlace": {
+        "name": "Bankgata"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T14:50:00+01:00",
+       "aimedEndTime": "2027-03-06T15:28:00+01:00",
+       "distance": 18855.0,
+       "fromPlace": {
+        "name": "Bankgata"
+       },
+       "toPlace": {
+        "name": "Eidkjosen"
+       },
+       "line": {
+        "publicCode": "42",
+        "name": "Stakkevollan-Sentrum-Eidkjosen",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:42_260819123101334_6055"
+       }
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T15:30:00+01:00",
+       "aimedEndTime": "2027-03-06T15:35:00+01:00",
+       "distance": 4067.0,
+       "fromPlace": {
+        "name": "Eidkjosen"
+       },
+       "toPlace": {
+        "name": "Henrikvik kryss"
+       },
+       "line": {
+        "publicCode": "425",
+        "name": "Tromvik-Ersfjord-Tromsø",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:425_260819123102416_6003"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-06T17:47:35+01:00",
+     "expectedEndTime": "2027-03-06T18:35:00+01:00",
+     "duration": 2845,
+     "walkDistance": 171.81,
+     "legs": [
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-06T17:47:35+01:00",
+       "aimedEndTime": "2027-03-06T17:50:00+01:00",
+       "distance": 171.81,
+       "fromPlace": {
+        "name": "Fr. Langes gate"
+       },
+       "toPlace": {
+        "name": "Bankgata"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T17:50:00+01:00",
+       "aimedEndTime": "2027-03-06T18:28:00+01:00",
+       "distance": 18855.0,
+       "fromPlace": {
+        "name": "Bankgata"
+       },
+       "toPlace": {
+        "name": "Eidkjosen"
+       },
+       "line": {
+        "publicCode": "42",
+        "name": "Stakkevollan-Sentrum-Eidkjosen",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:42_260819123101343_6073"
+       }
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T18:30:00+01:00",
+       "aimedEndTime": "2027-03-06T18:35:00+01:00",
+       "distance": 4067.0,
+       "fromPlace": {
+        "name": "Eidkjosen"
+       },
+       "toPlace": {
+        "name": "Henrikvik kryss"
+       },
+       "line": {
+        "publicCode": "425",
+        "name": "Tromvik-Ersfjord-Tromsø",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:425_260819123102417_6005"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,248 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-06T20:06:00+01:00",
+     "expectedEndTime": "2027-03-06T20:23:00+01:00",
+     "duration": 1020,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T20:06:00+01:00",
+       "aimedEndTime": "2027-03-06T20:23:00+01:00",
+       "distance": 3956.0,
+       "fromPlace": {
+        "name": "Fjellheisen"
+       },
+       "toPlace": {
+        "name": "Fr. Langes gate"
+       },
+       "line": {
+        "publicCode": "26",
+        "name": "Tromsø lufthavn-sentrum-Pyramiden",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:26_260918101386577_6058"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-06T20:28:10+01:00",
+     "expectedEndTime": "2027-03-06T20:42:00+01:00",
+     "duration": 830,
+     "walkDistance": 499.58,
+     "legs": [
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-06T20:28:10+01:00",
+       "aimedEndTime": "2027-03-06T20:35:00+01:00",
+       "distance": 499.58,
+       "fromPlace": {
+        "name": "Fjellheisen"
+       },
+       "toPlace": {
+        "name": "Novasenteret"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T20:35:00+01:00",
+       "aimedEndTime": "2027-03-06T20:42:00+01:00",
+       "distance": 2764.0,
+       "fromPlace": {
+        "name": "Novasenteret"
+       },
+       "toPlace": {
+        "name": "Fr. Langes gate"
+       },
+       "line": {
+        "publicCode": "28",
+        "name": "Hamna - Sentrum - Solligården",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:28_260918101386956_6088"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-06T20:36:00+01:00",
+     "expectedEndTime": "2027-03-06T20:53:00+01:00",
+     "duration": 1020,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T20:36:00+01:00",
+       "aimedEndTime": "2027-03-06T20:53:00+01:00",
+       "distance": 3956.0,
+       "fromPlace": {
+        "name": "Fjellheisen"
+       },
+       "toPlace": {
+        "name": "Fr. Langes gate"
+       },
+       "line": {
+        "publicCode": "26",
+        "name": "Tromsø lufthavn-sentrum-Pyramiden",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:26_260918101386578_6060"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-06T20:58:10+01:00",
+     "expectedEndTime": "2027-03-06T21:12:00+01:00",
+     "duration": 830,
+     "walkDistance": 499.58,
+     "legs": [
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-06T20:58:10+01:00",
+       "aimedEndTime": "2027-03-06T21:05:00+01:00",
+       "distance": 499.58,
+       "fromPlace": {
+        "name": "Fjellheisen"
+       },
+       "toPlace": {
+        "name": "Novasenteret"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T21:05:00+01:00",
+       "aimedEndTime": "2027-03-06T21:12:00+01:00",
+       "distance": 2764.0,
+       "fromPlace": {
+        "name": "Novasenteret"
+       },
+       "toPlace": {
+        "name": "Fr. Langes gate"
+       },
+       "line": {
+        "publicCode": "28",
+        "name": "Hamna - Sentrum - Solligården",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:28_260918101386957_6090"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-06T21:06:00+01:00",
+     "expectedEndTime": "2027-03-06T21:23:00+01:00",
+     "duration": 1020,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T21:06:00+01:00",
+       "aimedEndTime": "2027-03-06T21:23:00+01:00",
+       "distance": 3956.0,
+       "fromPlace": {
+        "name": "Fjellheisen"
+       },
+       "toPlace": {
+        "name": "Fr. Langes gate"
+       },
+       "line": {
+        "publicCode": "26",
+        "name": "Tromsø lufthavn-sentrum-Pyramiden",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:26_260918101386579_6062"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-06T21:28:10+01:00",
+     "expectedEndTime": "2027-03-06T21:42:00+01:00",
+     "duration": 830,
+     "walkDistance": 499.58,
+     "legs": [
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-06T21:28:10+01:00",
+       "aimedEndTime": "2027-03-06T21:35:00+01:00",
+       "distance": 499.58,
+       "fromPlace": {
+        "name": "Fjellheisen"
+       },
+       "toPlace": {
+        "name": "Novasenteret"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T21:35:00+01:00",
+       "aimedEndTime": "2027-03-06T21:42:00+01:00",
+       "distance": 2764.0,
+       "fromPlace": {
+        "name": "Novasenteret"
+       },
+       "toPlace": {
+        "name": "Fr. Langes gate"
+       },
+       "line": {
+        "publicCode": "28",
+        "name": "Hamna - Sentrum - Solligården",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:28_260918101386958_6092"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,190 @@
+You control your data
+
+We use cookies to collect information about you, and we use this information to 1. improve our website and give you a better user experience, 2. analyze how you use our website, 3. include or exclude you from receiving promotions through marketing on the basis of how you interact with our website. By clicking "OK", you give your consent for all these purposes. You can also choose to specify the purposes you consent to by ticking the checkbox next to the purpose and clicking "Save settings". You may withdraw your consent at any time by clicking the small icon at the bottom left corner of the website.
+
+
+
+Read more about cookies
+
+
+Edit cookies
+DECLINE ALL
+OK
+Necessary
+Functional
+Statistical
+Marketing
+powered by:
+Cookie Information
+Skip to content
+Voyages
+Experiences
+Offers
+Onboard
+Help and support
+EN
+FAQ
+FAQ
+
+Find frequently asked questions about our ships and voyages below. If you have other questions please contact our sales service centre.
+
+Booking
+Before departure
+Requirements
+Check-in and boarding
+Life on board
+Cabins
+Excursions
+Health and safety
+Port to port
+Booking
+How can I get help with a booking?
+Where can I find the booking terms and conditions?
+What is included in the price?
+What fare options are available?
+How do I pay my voyage when I book online?
+How do I get the confirmation of my booking?
+When should I book?
+Can I book connecting flights or trains through Havila Voyages?
+How do I access my booking?
+Can I change my voyage?
+What rules apply to cancellation?
+Can I upgrade my cabin?
+Before departure
+What is the best time of year to travel?
+What should I wear on board and ashore?
+What should I pack for a coastal voyage?
+How do I get to Norway?
+When is the best time to see the northern lights?
+When can I experience the polar night?
+When can I experience the midnight sun?
+Can I go ashore at every port?
+Requirements
+What identification and travel documents do I need to bring?
+Do I need travel insurance?
+Are any vaccinations required before the trip?
+Can I bring a car or motorcycle on board?
+Can I bring a bicycle or e-bike?
+What items are subject to boarding restrictions?
+Can I travel with a pet or service animal?
+Can I fly a drone from the ship?
+Where is smoking permitted on board?
+Check-in and boarding
+Where can I find port addresses and check-in times?
+How do I get from the airport to the port?
+What do I need to check-in?
+When should I check in?
+When should I check out?
+Where can I deliver my luggage?
+What should I do if I can't reach the ship on time?
+How do wheelchair users board the ship?
+Life on board
+What languages are used on board?
+What can I buy on board?
+Is there a shop on board?
+Is there a sauna on board?
+Can I wash clothes on board?
+Where can I find the ship deck plans?
+Do I need to tip on board?
+Is Wi-Fi available on board?
+Is there a gym on board?
+How can I pay on board?
+What type of power outlets are available on board?
+Are there outdoor hot tubs on board?
+How do I activate northern lights alerts in my cabin?
+I lost something on board, what do I do?
+Food and drinks
+How are tables assigned in Havrand Restaurant?
+Where can I find restaurant information and opening times?
+Which drinks are included?
+Which meals are included in my voyage?
+Can you accommodate allergies or other dietary requirements?
+How do I book Hildring Fine Dining?
+Which food and drinks cost extra?
+Are vegetarian and vegan meals available?
+Is room service available?
+Cabins
+How many guests can stay in a cabin?
+What accessible cabins are available?
+What size are the cabin beds?
+Does every cabin have a private bathroom?
+Is there a telephone in my cabin?
+Will I have to share my cabin when travelling alone?
+Is there a television in every cabin?
+Excursions
+How do I book an excursion?
+Should I book excursions before departure?
+What happens if Havila cancels my excursion?
+What types of excursions are available?
+What languages are excursions offered in?
+Is food included on excursions?
+What should I do if an excursion overlaps with an onboard meal?
+How physically demanding are the excursions, and are they accessible?
+How is safety managed on excursions?
+Health and safety
+What can I do if I am prone to seasickness?
+What medical help is available on board?
+Where can I store medicine that must be kept cool?
+How will I receive the mandatory safety information?
+Is the tap water safe to drink?
+What support is available for blind or visually impaired guests?
+Can I move around the ship in a wheelchair?
+What accessible cabins are available?
+What support is available for guests who are deaf or hard of hearing?
+Can I borrow a wheelchair on board?
+Can I borrow crutches on board?
+Port to port
+How old must a child be to travel alone on a port-to-port journey?
+When should I check in for a port-to-port journey?
+Which port-to-port discounts are available?
+Where can I sit or rest without a cabin?
+Can I send freight or goods with the ship?
+Contact information
+Contact us
+
+Phone: +47 70 00 70 71
+
+About
+About Havila
+Press and media
+Careers
+ABTA & FCDO
+Terms and conditions
+Privacy notice
+Investors
+Support
+My booking
+For agents
+Claims and refunds
+Sailing schedule
+Brochures
+Follow us
+Facebook
+Instagram
+YouTube
+---REQS---
+200 https://api-eu1.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json?portalId=139741992
+200 https://forms-eu1.hscollectedforms.net/collected-forms/v1/config/json?portalId=139741992&utk=a87b3ca14ed68bf2d2e2cca2c803a4e8
+---LINKS---
+https://www.facebook.com/privacy/explanation
+https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies#ie=ie-11
+https://support.microsoft.com/en-us/help/4027947/microsoft-edge-delete-cookies
+https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored
+https://support.google.com/chrome/answer/95647?hl=en
+https://support.apple.com/en-us/HT201265
+https://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager07.html
+https://support.apple.com/en-us/HT1677
+https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DAndroid&hl=en
+https://www.havilavoyages.com/en/faq#main-content
+https://www.havilavoyages.com/en/faq
+https://www.havilavoyages.com/en/faq#booking
+https://www.havilavoyages.com/en/faq#before-departure
+https://www.havilavoyages.com/en/faq#requirements
+https://www.havilavoyages.com/en/faq#check-in-and-boarding
+https://www.havilavoyages.com/en/faq#life-on-board
+https://www.havilavoyages.com/en/faq#cabins
+https://www.havilavoyages.com/en/faq#excursions
+https://www.havilavoyages.com/en/faq#health-and-safety
+https://www.havilavoyages.com/en/faq#port-to-port
+https://www.havilavoyages.com/en/sailing-schedule
+https://www.facebook.com/havilakystruten

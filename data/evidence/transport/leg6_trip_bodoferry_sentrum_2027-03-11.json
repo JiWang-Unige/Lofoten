@@ -1,0 +1,124 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-11T23:45:00+01:00",
+     "expectedEndTime": "2027-03-11T23:58:58+01:00",
+     "duration": 838,
+     "walkDistance": 1006.78,
+     "legs": [
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-11T23:45:00+01:00",
+       "aimedEndTime": "2027-03-11T23:58:58+01:00",
+       "distance": 1006.78,
+       "fromPlace": {
+        "name": "Bodø ferjekai"
+       },
+       "toPlace": {
+        "name": "Bodø sentrum"
+       },
+       "line": null,
+       "serviceJourney": null
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T05:58:10+01:00",
+     "expectedEndTime": "2027-03-12T06:07:00+01:00",
+     "duration": 530,
+     "walkDistance": 281.1,
+     "legs": [
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-12T05:58:10+01:00",
+       "aimedEndTime": "2027-03-12T06:02:00+01:00",
+       "distance": 281.1,
+       "fromPlace": {
+        "name": "Bodø ferjekai"
+       },
+       "toPlace": {
+        "name": "Bodø stasjon"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T06:02:00+01:00",
+       "aimedEndTime": "2027-03-12T06:07:00+01:00",
+       "distance": 1238.0,
+       "fromPlace": {
+        "name": "Bodø stasjon"
+       },
+       "toPlace": {
+        "name": "Bodø sentrum"
+       },
+       "line": {
+        "publicCode": "4",
+        "name": "Tverlandet - Bodø sentrum - Løpsmarka",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8004_261016102824876_1001"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T06:28:10+01:00",
+     "expectedEndTime": "2027-03-12T06:37:00+01:00",
+     "duration": 530,
+     "walkDistance": 281.1,
+     "legs": [
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-12T06:28:10+01:00",
+       "aimedEndTime": "2027-03-12T06:32:00+01:00",
+       "distance": 281.1,
+       "fromPlace": {
+        "name": "Bodø ferjekai"
+       },
+       "toPlace": {
+        "name": "Bodø stasjon"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T06:32:00+01:00",
+       "aimedEndTime": "2027-03-12T06:37:00+01:00",
+       "distance": 1238.0,
+       "fromPlace": {
+        "name": "Bodø stasjon"
+       },
+       "toPlace": {
+        "name": "Bodø sentrum"
+       },
+       "line": {
+        "publicCode": "4",
+        "name": "Tverlandet - Bodø sentrum - Løpsmarka",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8004_261016102824954_1002"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

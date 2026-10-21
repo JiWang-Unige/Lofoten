@@ -1,0 +1,230 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-11T16:10:00+01:00",
+     "expectedEndTime": "2027-03-12T02:44:15+01:00",
+     "duration": 38055,
+     "walkDistance": 1095.47,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-11T16:10:00+01:00",
+       "aimedEndTime": "2027-03-11T17:40:00+01:00",
+       "distance": 63053.0,
+       "fromPlace": {
+        "name": "Moskenes kai"
+       },
+       "toPlace": {
+        "name": "Leknes sentrum"
+       },
+       "line": {
+        "publicCode": "742",
+        "name": "Leknes - Å i Lofoten",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8742_251012124857422_1013"
+       }
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-11T18:30:00+01:00",
+       "aimedEndTime": "2027-03-11T19:00:00+01:00",
+       "distance": 23926.0,
+       "fromPlace": {
+        "name": "Leknes sentrum"
+       },
+       "toPlace": {
+        "name": "Stamsund kai"
+       },
+       "line": {
+        "publicCode": "767",
+        "name": "Leknes-Mortsund-Ure-Stamsund",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8767_251012124900801_1017"
+       }
+      },
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-11T19:00:00+01:00",
+       "aimedEndTime": "2027-03-11T19:01:05+01:00",
+       "distance": 79.65,
+       "fromPlace": {
+        "name": "Stamsund kai"
+       },
+       "toPlace": {
+        "name": "Stamsund kystrutekai"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "water",
+       "aimedStartTime": "2027-03-11T22:30:00+01:00",
+       "aimedEndTime": "2027-03-12T02:30:00+01:00",
+       "distance": 99685.0,
+       "fromPlace": {
+        "name": "Stamsund kystrutekai"
+       },
+       "toPlace": {
+        "name": "Bodø kystrutekai"
+       },
+       "line": {
+        "publicCode": "HUR",
+        "name": "Bergen-Kirkenes-Bergen",
+        "operator": {
+         "name": "Hurtigruten"
+        },
+        "authority": {
+         "name": "Hurtigruten"
+        }
+       },
+       "serviceJourney": {
+        "id": "HUR:ServiceJourney:Winter"
+       }
+      },
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-12T02:30:00+01:00",
+       "aimedEndTime": "2027-03-12T02:44:15+01:00",
+       "distance": 1015.82,
+       "fromPlace": {
+        "name": "Bodø kystrutekai"
+       },
+       "toPlace": {
+        "name": "Bodø sentrum"
+       },
+       "line": null,
+       "serviceJourney": null
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-11T20:10:00+01:00",
+     "expectedEndTime": "2027-03-12T09:34:58+01:00",
+     "duration": 48298,
+     "walkDistance": 751.98,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-11T20:10:00+01:00",
+       "aimedEndTime": "2027-03-11T21:40:00+01:00",
+       "distance": 63053.0,
+       "fromPlace": {
+        "name": "Moskenes kai"
+       },
+       "toPlace": {
+        "name": "Leknes sentrum"
+       },
+       "line": {
+        "publicCode": "742",
+        "name": "Leknes - Å i Lofoten",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8742_251012124855809_1009"
+       }
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-11T21:45:00+01:00",
+       "aimedEndTime": "2027-03-11T23:10:00+01:00",
+       "distance": 70057.0,
+       "fromPlace": {
+        "name": "Leknes sentrum"
+       },
+       "toPlace": {
+        "name": "Svolvær sentrum Lofotgata"
+       },
+       "line": {
+        "publicCode": "741",
+        "name": "Svolvær - Leknes",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8741_251012124855789_2018"
+       }
+      },
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-11T23:10:00+01:00",
+       "aimedEndTime": "2027-03-11T23:15:48+01:00",
+       "distance": 418.18,
+       "fromPlace": {
+        "name": "Svolvær sentrum Lofotgata"
+       },
+       "toPlace": {
+        "name": "Svolvær hurtigbåtkai"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "water",
+       "aimedStartTime": "2027-03-12T06:00:00+01:00",
+       "aimedEndTime": "2027-03-12T09:30:00+01:00",
+       "distance": 155707.0,
+       "fromPlace": {
+        "name": "Svolvær hurtigbåtkai"
+       },
+       "toPlace": {
+        "name": "Bodø hurtigbåtkai"
+       },
+       "line": {
+        "publicCode": "23-755",
+        "name": "Bodø - Svolvær - Bodø",
+        "operator": {
+         "name": "Boreal Sjø AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:3755_251113142620143_2003"
+       }
+      },
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-12T09:30:00+01:00",
+       "aimedEndTime": "2027-03-12T09:34:58+01:00",
+       "distance": 333.8,
+       "fromPlace": {
+        "name": "Bodø hurtigbåtkai"
+       },
+       "toPlace": {
+        "name": "Bodø sentrum regionbuss"
+       },
+       "line": null,
+       "serviceJourney": null
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

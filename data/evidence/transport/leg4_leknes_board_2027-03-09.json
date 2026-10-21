@@ -1,0 +1,1090 @@
+{
+ "data": {
+  "stopPlace": {
+   "name": "Leknes sentrum",
+   "estimatedCalls": [
+    {
+     "aimedDepartureTime": "2027-03-09T06:20:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Svolvær sentrum via Hagvåg"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8741_251012124855780_2002",
+      "line": {
+       "publicCode": "741",
+       "name": "Svolvær - Leknes",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T06:45:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Vikten"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8771_251012124901623_2017",
+      "line": {
+       "publicCode": "771",
+       "name": "Leknes-Ramberg-Fredvang-Nusfjo",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T07:05:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Leknes- Utakleiv- Leknes"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8765_251012124855992_1001",
+      "line": {
+       "publicCode": "765",
+       "name": "Leknes-Oppdøl-Uttakleiv",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T07:10:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Stamsund kai"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8767_251012124900875_1001",
+      "line": {
+       "publicCode": "767",
+       "name": "Leknes-Mortsund-Ure-Stamsund",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T07:10:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ballstad"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8766_251012124856004_1006",
+      "line": {
+       "publicCode": "766",
+       "name": "Leknes-Ballstad",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T07:15:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ramberg"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8771_251012124901632_1011",
+      "line": {
+       "publicCode": "771",
+       "name": "Leknes-Ramberg-Fredvang-Nusfjo",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T07:15:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Moland"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8763_251012124855968_1003",
+      "line": {
+       "publicCode": "763",
+       "name": "Leknes-Valberg",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T07:15:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Gjærhaugen via Finnstad/Sennesvik/Ure"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8767_251012124900817_1002",
+      "line": {
+       "publicCode": "767",
+       "name": "Leknes-Mortsund-Ure-Stamsund",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T07:25:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Mortsund"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8767_251012124900815_1003",
+      "line": {
+       "publicCode": "767",
+       "name": "Leknes-Mortsund-Ure-Stamsund",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T07:25:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Haugen via Bøstad skole og Hagvåg"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8741_251012124855782_2004",
+      "line": {
+       "publicCode": "741",
+       "name": "Svolvær - Leknes",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T08:05:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Gravdal"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8766_251012124856005_1009",
+      "line": {
+       "publicCode": "766",
+       "name": "Leknes-Ballstad",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T08:10:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Narvik"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:3760_251012124857876_2001",
+      "line": {
+       "publicCode": "300",
+       "name": "Å-Leknes-Svolvær-Narvik",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T08:15:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Havbruksakademiet"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8766_251012124856706_1017",
+      "line": {
+       "publicCode": "766",
+       "name": "Leknes-Ballstad",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T08:25:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Bøstad skole via Opdø skole"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8741_251012124855783_2006",
+      "line": {
+       "publicCode": "741",
+       "name": "Svolvær - Leknes",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T08:25:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ballstad"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8766_251012124856006_1010",
+      "line": {
+       "publicCode": "766",
+       "name": "Leknes-Ballstad",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T08:25:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Bøstad skole via Rise og Øvre Ostad"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8741_251012124855784_2007",
+      "line": {
+       "publicCode": "741",
+       "name": "Svolvær - Leknes",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T08:40:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Å i Lofoten via Reine og Moskenes ferjekai"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8742_251012124857963_2007",
+      "line": {
+       "publicCode": "742",
+       "name": "Leknes - Å i Lofoten",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T09:30:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Stamsund"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8767_251012124900818_1006",
+      "line": {
+       "publicCode": "767",
+       "name": "Leknes-Mortsund-Ure-Stamsund",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T09:30:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ballstad"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8766_251012124856007_1011",
+      "line": {
+       "publicCode": "766",
+       "name": "Leknes-Ballstad",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T10:40:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Å i Lofoten via Reine og Moskenes ferjekai"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8742_251012124855813_2004",
+      "line": {
+       "publicCode": "742",
+       "name": "Leknes - Å i Lofoten",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T10:45:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Svolvær sentrum"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8741_251012124855785_2008",
+      "line": {
+       "publicCode": "741",
+       "name": "Svolvær - Leknes",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T11:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ballstad"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8766_251012124856008_1012",
+      "line": {
+       "publicCode": "766",
+       "name": "Leknes-Ballstad",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T12:20:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ballstad"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8766_251012124856002_1004",
+      "line": {
+       "publicCode": "766",
+       "name": "Leknes-Ballstad",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T12:45:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Å i Lofoten via Reine og Moskenes ferjekai"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8742_251012124857957_2006",
+      "line": {
+       "publicCode": "742",
+       "name": "Leknes - Å i Lofoten",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T12:45:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Nusfjord - Ramberg"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8771_251012124901615_1016",
+      "line": {
+       "publicCode": "771",
+       "name": "Leknes-Ramberg-Fredvang-Nusfjo",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T13:20:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Stamsund kai"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8767_251012124900804_1010",
+      "line": {
+       "publicCode": "767",
+       "name": "Leknes-Mortsund-Ure-Stamsund",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T13:30:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Svolvær - Narvik"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:3760_251012124855087_2014",
+      "line": {
+       "publicCode": "300",
+       "name": "Å-Leknes-Svolvær-Narvik",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T14:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Leknes- Utakleiv- Leknes"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8765_251012124855994_2001",
+      "line": {
+       "publicCode": "765",
+       "name": "Leknes-Oppdøl-Uttakleiv",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T14:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Haugen via Opdøl skole, Rise/Ostad, Bøstad skole, Hagvåg"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8741_251012124855787_2012",
+      "line": {
+       "publicCode": "741",
+       "name": "Svolvær - Leknes",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T14:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ure"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8767_251012124900843_1012",
+      "line": {
+       "publicCode": "767",
+       "name": "Leknes-Mortsund-Ure-Stamsund",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T14:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ballstad"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8766_251012124856009_1014",
+      "line": {
+       "publicCode": "766",
+       "name": "Leknes-Ballstad",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T14:15:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Svarholt skole"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8767_251012124900812_1013",
+      "line": {
+       "publicCode": "767",
+       "name": "Leknes-Mortsund-Ure-Stamsund",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T15:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Utakleiv via Øvre Ostad"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8765_251012124855997_2006",
+      "line": {
+       "publicCode": "765",
+       "name": "Leknes-Oppdøl-Uttakleiv",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T15:05:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ballstad"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8766_251012124856010_1015",
+      "line": {
+       "publicCode": "766",
+       "name": "Leknes-Ballstad",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T15:35:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Moland"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8763_251012124856339_1002",
+      "line": {
+       "publicCode": "763",
+       "name": "Leknes-Valberg",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T15:45:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Å i Lofoten"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:3760_251012124859148_1018",
+      "line": {
+       "publicCode": "300",
+       "name": "Å-Leknes-Svolvær-Narvik",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T16:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Utakleiv"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8765_251012124855995_2004",
+      "line": {
+       "publicCode": "765",
+       "name": "Leknes-Oppdøl-Uttakleiv",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T16:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Svolvær sentrum via Hagvåg"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8741_251012124855788_2014",
+      "line": {
+       "publicCode": "741",
+       "name": "Svolvær - Leknes",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T16:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ballstad"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8766_251012124856011_1016",
+      "line": {
+       "publicCode": "766",
+       "name": "Leknes-Ballstad",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T16:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Stamsund kai"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8767_251012124900874_1014",
+      "line": {
+       "publicCode": "767",
+       "name": "Leknes-Mortsund-Ure-Stamsund",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T16:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ure via Mortsund"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8767_251012124900820_1015",
+      "line": {
+       "publicCode": "767",
+       "name": "Leknes-Mortsund-Ure-Stamsund",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T17:15:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ballstad"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8766_251012124856012_1018",
+      "line": {
+       "publicCode": "766",
+       "name": "Leknes-Ballstad",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T18:30:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Stamsund kai"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8767_251012124900801_1017",
+      "line": {
+       "publicCode": "767",
+       "name": "Leknes-Mortsund-Ure-Stamsund",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T20:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ballstad"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8766_251012124856014_1020",
+      "line": {
+       "publicCode": "766",
+       "name": "Leknes-Ballstad",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T21:40:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Å i Lofoten"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:3760_251012124859150_1015",
+      "line": {
+       "publicCode": "300",
+       "name": "Å-Leknes-Svolvær-Narvik",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T21:40:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ballstad"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8766_251012124856015_1021",
+      "line": {
+       "publicCode": "766",
+       "name": "Leknes-Ballstad",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-09T21:45:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Svolvær sentrum"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8741_251012124855789_2018",
+      "line": {
+       "publicCode": "741",
+       "name": "Svolvær - Leknes",
+       "authority": {
+        "name": "Nordland fylkeskommune"
+       },
+       "operator": {
+        "name": "Boreal Buss AS"
+       }
+      }
+     },
+     "quay": {
+      "name": "Leknes sentrum",
+      "publicCode": null
+     }
+    }
+   ]
+  }
+ }
+}

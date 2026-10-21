@@ -1,0 +1,41 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-01-28T20:30:00+01:00",
+     "expectedEndTime": "2027-01-28T23:45:00+01:00",
+     "duration": 11700,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "water",
+       "aimedStartTime": "2027-01-28T20:30:00+01:00",
+       "aimedEndTime": "2027-01-28T23:45:00+01:00",
+       "distance": 94368.0,
+       "fromPlace": {
+        "name": "Moskenes ferjekai"
+       },
+       "toPlace": {
+        "name": "Bodø ferjekai"
+       },
+       "line": {
+        "publicCode": "18-782",
+        "name": "A-rute Bodø - Værøy - Røst - Moskenes",
+        "operator": {
+         "name": "Torghatten Nord AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8782_260903145085858_1010"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

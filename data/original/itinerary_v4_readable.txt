@@ -1,0 +1,108 @@
+['bind_political_info', 'day_index', 'day_plan_name', 'events', 'need_more_translate', 'remark', 'start_event', 'timestamp', 'title_for_map']
+['binding_object_id', 'create_time', 'end_poi_info', 'end_time', 'event_duration', 'event_type', 'event_type_v2', 'id', 'name', 'need_more_translate', 'note', 'route_transportation_type', 'start_poi_info', 'start_time', 'transport_info', 'user_id']
+
+=== D1 03.05 周五 | 抵达特罗姆瑟
+- 23:20-23:55 [t104/v104 rt3] 特罗姆瑟机场 | from: 特罗姆瑟机场 to: 特罗姆瑟机场 | poi: None
+    note: 公交 42/40/26 路约 15-20 分钟、单程约 NOK48（90 分钟可换乘）；或机场快线 Flybussen；打车约 NOK300
+- 00:00-00:30 [t300/v300 rt0] 入住青年旅舍/便宜单人房 | from: None to: None | poi: None
+    note: 特罗姆瑟酒店偏贵，优先青年旅舍；务必确认可午夜后入住
+
+=== D2 03.06 周六 | 市区、Fjellheisen 与峡湾
+  [day.start_event] {"id": 7699090299675693789, "name": "入住青年旅舍/便宜单人房", "note": "特罗姆瑟酒店偏贵，优先青年旅舍；务必确认可午夜后入住", "start_time": "00:00", "end_time": "00:30", "event_type_v2": 300, "need_more_translate": false, "event_type": 300, "route_transportation_type": 0, "create_time": 1792584151000}
+- 09:00-10:30 [t300/v300 rt3] 特罗姆瑟市中心 | from: None to: None | poi: None
+    note: 特罗姆瑟大桥（同框拍教堂与码头）、北极之门（透过门框拍大教堂）、特罗姆瑟大教堂（免费）、市图书馆、世界最北麦当劳
+- 10:30-11:15 [t104/v104 rt1] 北极教堂 | from: 北极教堂 to: 北极教堂 | poi: None
+    note: 内部东墙巨型玻璃马赛克（高约 12 米）与管风琴，门票约 80NOK；外景/夜景更出片，可只外部拍照
+- 11:15-12:30 [t104/v104 rt3] Fjellheisen缆车 | from: Fjellheisen缆车 to: Fjellheisen缆车 | poi: None
+    note: 往返约 595NOK（线上平台更便宜）；山顶观景台俯瞰全城与峡湾，蓝调/日落前 1 小时最出片；山顶咖啡厅冰淇淋不错
+- 13:00-16:00 [t103/v103 rt0] Ersfjordbotn | from: Ersfjordbotn to: Ersfjordbotn | poi: None
+    note: 天气好则乘 425 路前往峡湾小镇；周六班次稀少需严格卡时刻；天气差改 Polaria 极地水族馆（每天 10-17 点，学生约 260NOK）
+- 17:00-22:30 [t300/v300 rt0] 晚餐与极光观测 | from: None to: None | poi: None
+    note: 吃饭后自行追光或参加短途团；若参团须确认 23:45 前返港；云量差不强求远离城市
+- 23:30-00:30 [t300/v300 rt0] 前往 Havila 码头登船 | from: None to: None | poi: None
+    note: Havila 海岸游轮 3/7 01:30 离港，需在 01:30 前完成登船
+
+=== D3 03.07 周日 | Havila 海岸航行进入罗弗敦
+  [day.start_event] {"note": "Havila 海岸游轮 3/7 01:30 离港，需在 01:30 前完成登船", "event_type": 300, "route_transportation_type": 0, "create_time": 1792584151000, "id": 7699090299671071945, "start_time": "23:30", "end_time": "00:30", "event_type_v2": 300, "need_more_translate": false, "name": "前往 Havila 码头登船"}
+- 01:30-18:30 [t203/v203 rt1] 特罗姆瑟 → 斯沃尔韦尔 | from: 特罗姆瑟 to: 斯沃尔韦尔 | poi: None
+    note: Havila 海岸游轮南向；沿岸经 Harstad、Risøyhamn、Sortland、Stokmarknes；15:00-18:30 尽量留在甲板，Raftsundet 为最不应错过的一段
+    [event_duration] 61200000
+    [transport_info] {"transport_end_time": 1804415400000, "transport_num": "", "transport_start_time": 1804354200000}
+- 18:30-23:00 [t104/v104 rt1] 斯沃尔韦尔 | from: 斯沃尔韦尔 to: 斯沃尔韦尔 | poi: None
+    note: 下船入住；晚间可于港口周边安全地点观极光
+
+=== D4 03.08 周一 | 亨宁斯韦尔渔村
+  [day.start_event] {"id": 7699090299675693791, "note": "下船入住；晚间可于港口周边安全地点观极光", "start_time": "18:30", "route_transportation_type": 1, "binding_object_id": "91516a685f854a319bcc3adb0a783214", "event_type_v2": 104, "create_time": 1792584151000, "name": "斯沃尔韦尔", "event_type": 104, "end_time": "23:00", "start_poi_info": {"icon": "https://pitravel.pitravelcdn.com/slytherin/987ba28829c846f3879c97323b26b849.png", "is_in_china": false, "inner_poi_id": "91516a685f854a319bcc3adb0a783214", "loc
+- 08:30-09:40 [t104/v104 rt3] 斯沃尔韦尔港口客运站 | from: 斯沃尔韦尔港口客运站 to: 斯沃尔韦尔港口客运站 | poi: None
+    note: 港口、Svinøya 红木屋；出发前确认 743 班次
+- 09:40-10:20 [t300/v300 rt1] 返回市中心、取行李/补给 | from: None to: None | poi: None
+    note: 酒店退房、轻装
+- 10:30-14:00 [t104/v104 rt3] 亨宁斯韦尔 | from: 亨宁斯韦尔 to: 亨宁斯韦尔 | poi: None
+    note: 743 约 30 分钟；渔港+晾鱼架（冬季捕鱼文化）、海上足球场（经典俯瞰需无人机，可上小坡拍同框）、Trevarefabrikken 咖啡/小店；KaviarFactory 与罗弗敦画廊周一多不开放
+- 14:21-15:30 [t300/v300 rt3] 乘 743 返回斯沃尔韦尔 | from: None to: None | poi: None
+    note: 参考返程班次，需在 Reis 核实 2027 时刻
+- 15:45-17:10 [t300/v300 rt0] 取行李，741 跨岛至莱克内斯 | from: None to: None | poi: None
+    note: 741 参考工作日班次，至 Leknes 约 85 分钟；若班次取消则斯沃尔韦尔再住一晚
+- 17:10-21:00 [t104/v104 rt3] 莱克内斯 | from: 莱克内斯 to: 莱克内斯 | poi: None
+    note: 入住；晚间视云量在周边安全地点观极光
+
+=== D5 03.09 周二 | 中西海滩与西部渔村
+  [day.start_event] {"event_type": 104, "start_time": "17:10", "end_time": "21:00", "binding_object_id": "659852897d0d48eca782c1a5ecaa4c48", "end_poi_info": {"address": "挪威莱克内斯", "region_tag": "OTHER", "elevation": 0, "poi_source": 1, "inner_poi_id": "659852897d0d48eca782c1a5ecaa4c48", "outer_poi_id": "ChIJX0hDr6wS3kURHfafX-ezX1w", "poi_type": 4, "location": {"latitude": "68.1465068", "longitude": "13.6096372"}, "image": "https://pitravel.pitravelcdn.com/slytherin/fa79d4f80d984302bdfb4d34bc30c6d4.png?sly_wh=800,589
+- 08:00-10:40 [t104/v104 rt3] 莱克内斯 | from: 莱克内斯 to: 莱克内斯 | poi: None
+    note: 早餐、超市补给、退房；742 参考 08:40/10:40 发车
+- 10:40-12:55 [t104/v104 rt3] 拉姆贝格海滩 | from: 拉姆贝格海滩 to: 拉姆贝格海滩 | poi: None
+    note: 742 至 Ramberg Gjestegård；白沙滩配红木屋；Skagsanden、Fredvang 桥机位在附近（视班次）；参考班次需 Reis 核实
+- 13:45-14:45 [t104/v104 rt3] 汉姆内伊岛 | from: 汉姆内伊岛 to: 汉姆内伊岛 | poi: None
+    note: 742 参考车次至 Hamnøy；孤独星球封面机位，上桥广角拍红屋·雪山·海水
+- 15:00-18:00 [t104/v104 rt1] 雷讷 | from: 雷讷 to: 雷讷 | poi: None
+    note: 772 参考车次；Reinehalsen 观景台俯瞰全景、港口海湾；入住
+- 18:00-22:00 [t300/v300 rt0] 夜间观察极光 | from: None to: None | poi: None
+    note: 视云量在雷讷周边安全地点追极光
+
+=== D6 03.10 周三 | 雷讷群岛精华摄影
+  [day.start_event] {"name": "夜间观察极光", "note": "视云量在雷讷周边安全地点追极光", "event_type": 300, "start_time": "18:00", "end_time": "22:00", "event_type_v2": 300, "create_time": 1792584151000, "id": 7699090299660525282, "route_transportation_type": 0, "need_more_translate": false}
+- 07:00-09:00 [t104/v104 rt1] 雷讷 | from: 雷讷 to: 雷讷 | poi: None
+    note: Reinehalsen 观景台晨光摄影，看雪山、峡湾、日出方向
+- 09:00-11:30 [t300/v300 rt1] 雷讷港口 | from: None to: None | poi: None
+    note: 港口渔屋、晾鱼架、小镇，轻装步行
+- 11:30-13:20 [t300/v300 rt3] 午间补给 | from: None to: None | poi: None
+    note: 午餐、Circle K 等补给
+- 13:35-14:55 [t104/v104 rt3] 奥伦岛 | from: 奥伦岛 to: 奥伦岛 | poi: None
+    note: 772 下午小循环 Reine→Olenilsøya→Reine（参考班次）；Sakrisøy 黄房子、Anita's 海鲜、Olstinden 山景；冰雪天不爬岩石小丘
+- 15:00-17:00 [t104/v104 rt1] 雷讷 | from: 雷讷 to: 雷讷 | poi: None
+    note: Reinehalsen、雷讷海湾按光线补拍
+- 17:00-22:00 [t300/v300 rt0] 夜间观察极光 | from: None to: None | poi: None
+    note: 视云量在雷讷周边安全地点追极光，不必跨村
+
+=== D7 03.11 周四 | 奥镇与索尔沃根，夜渡博德
+  [day.start_event] {"id": 7699090299671071951, "name": "夜间观察极光", "event_type": 300, "end_time": "22:00", "route_transportation_type": 0, "event_type_v2": 300, "note": "视云量在雷讷周边安全地点追极光，不必跨村", "start_time": "17:00", "create_time": 1792584151000, "need_more_translate": false}
+- 08:00-09:30 [t104/v104 rt3] 雷讷 | from: 雷讷 to: 雷讷 | poi: None
+    note: 晨景摄影、退房；依天气决定
+- 09:30-12:00 [t104/v104 rt3] 奥镇 | from: 奥镇 to: 奥镇 | poi: None
+    note: Å 是 E10 尽头；挪威渔村博物馆（成人 132/学生 100NOK，冬季每日 09-15 点）、鳕鱼干架群、老码头木屋、Viewpoint of Å；石炉面包房冬季不营业（5-10 月）
+- 12:00-14:00 [t104/v104 rt3] 索尔瓦根 | from: 索尔瓦根 to: 索尔瓦根 | poi: None
+    note: Sørvågen、Tind 海湾步行；可顺访 Sørvågen Radio 无线电博物馆（周一-五 10-15 点）
+- 19:15-20:30 [t104/v104 rt1] 莫斯克内斯渡轮码头 | from: 莫斯克内斯渡轮码头 to: 莫斯克内斯渡轮码头 | poi: None
+    note: 预留登船时间；742/772 接渡轮需核实
+- 20:30-23:45 [t203/v203 rt1] Moskenes Ferryport → 博德 | from: 莫斯克内斯渡轮码头 to: 博德 | poi: None
+    note: 免费渡轮（徒步免费），周四航次；注意实时海况
+    [event_duration] 11700000
+    [transport_info] {"transport_num": "", "transport_start_time": 1804768200000, "transport_end_time": 1804779900000}
+- 00:00-01:00 [t104/v104 rt3] 博德 | from: 博德 to: 博德 | poi: None
+    note: 酒店入住，提前通知晚到
+
+=== D8 03.12 周五 | 博德周边与返程
+  [day.start_event] {"binding_object_id": "a2d2dca0b78944a2b1f79b03fcf6b827", "start_poi_info": {"background_color": "#E9E9E9", "rating": 0, "inner_poi_id": "a2d2dca0b78944a2b1f79b03fcf6b827", "name": "博德", "coordinate_type": "WGS84", "elevation": 7.961642742156982, "poi_source": 1, "political_info": [{"address_info": "挪威", "zoom_level": 0, "political_id": "91AB15932E6E", "name": "挪威", "political_level": 1, "location": {"latitude": "60.4720240", "longitude": "8.4689460"}, "parent_id": "0", "country_id": "91AB15932E
+- 09:00-12:00 [t104/v104 rt3] 萨尔特流 | from: 萨尔特流 to: 萨尔特流 | poi: None
+    note: Saltstraumen 强潮流漩涡；视当日潮汐窗口决定，可插拔
+- 12:00-15:00 [t103/v103 rt3] 挪威航空博物馆 | from: 挪威航空博物馆 to: 挪威航空博物馆 | poi: None
+    note: 逛博德港口或参观挪威航空博物馆（民用/军事航空史、U-2/Spitfire 等，学生约 160NOK，平日 10-16 点）
+- 16:00-19:45 [t103/v103 rt1] 博德机场 | from: 博德机场 to: 博德机场 | poi: None
+    note: 回酒店取行李、前往机场
+
+=== D9 03.13 周六 | 返程日内瓦
+  [day.start_event] {"binding_object_id": "5a0081a6a52548119f454c8730ac18a4", "end_poi_info": {"background_color": "#DAE3F1", "address": "Olav V gate 56, 8004 Bodø, 挪威", "political_info": [{"address_info": "挪威", "level_for_consumer": 1, "zoom_level": 0, "political_id": "91AB15932E6E", "political_level": 1, "image": "https://pitravel.pitravelcdn.com/slytherin/2f7b19289e944c16b20ab2bcf3fb6dfb.png", "is_old_version": false, "name": "挪威", "location": {"latitude": "60.4720240", "longitude": "8.4689460"}, "parent_id": "0
+
+=== D-1 待计划 | None
+- 17:30-19:25 [t103/v103 rt3] 日内瓦国际机场 | from: 日内瓦国际机场 to: 日内瓦国际机场 | poi: None
+    note: DY1613，19:25 起飞，约 CHF 70

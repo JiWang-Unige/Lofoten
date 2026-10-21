@@ -1,0 +1,1412 @@
+{
+ "data": {
+  "stopPlace": {
+   "name": "Tromsø lufthavn",
+   "estimatedCalls": [
+    {
+     "aimedDepartureTime": "2027-03-05T21:03:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Eidkjosen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101517_1135",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:03:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Stakkevollan via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101610_1140",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:04:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsdalen via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386531_1091",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:10:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø museum via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:40_260819123103884_1080",
+      "line": {
+       "publicCode": "40",
+       "name": "Tromsø museum - Slettaelva",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:13:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Skjelnan via Mortensnes / sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:24_261020195621924_1129",
+      "line": {
+       "publicCode": "24",
+       "name": "Skognesvegen - Giæverbukta - sentrum - Skjelnan",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:16:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386597_1088",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:18:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Eidkjosen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101527_1137",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:19:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Stakkevollan via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101602_1142",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:22:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Slettaelva"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:40_260819123103783_1077",
+      "line": {
+       "publicCode": "40",
+       "name": "Tromsø museum - Slettaelva",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:26:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:24_261020195365127_1124",
+      "line": {
+       "publicCode": "24",
+       "name": "Skognesvegen - Giæverbukta - sentrum - Skjelnan",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:33:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Eidkjosen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101518_1139",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:34:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsdalen via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386532_1093",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:40:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø museum via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:40_260819123103885_1082",
+      "line": {
+       "publicCode": "40",
+       "name": "Tromsø museum - Slettaelva",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:43:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Skjelnan via Mortensnes / sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:24_261020195623933_1131",
+      "line": {
+       "publicCode": "24",
+       "name": "Skognesvegen - Giæverbukta - sentrum - Skjelnan",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:46:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386598_1090",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:49:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Stakkevollan via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101603_1144",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:52:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Slettaelva"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:40_260819123103784_1079",
+      "line": {
+       "publicCode": "40",
+       "name": "Tromsø museum - Slettaelva",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T21:56:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:24_261020195367131_1126",
+      "line": {
+       "publicCode": "24",
+       "name": "Skognesvegen - Giæverbukta - sentrum - Skjelnan",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T22:03:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Eidkjosen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101519_1141",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T22:04:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsdalen via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386533_1095",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T22:10:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø museum via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:40_260819123103886_1084",
+      "line": {
+       "publicCode": "40",
+       "name": "Tromsø museum - Slettaelva",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T22:13:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Skjelnan via Mortensnes / sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:24_261020195625942_1133",
+      "line": {
+       "publicCode": "24",
+       "name": "Skognesvegen - Giæverbukta - sentrum - Skjelnan",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T22:16:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386599_1092",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T22:19:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Stakkevollan via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101605_1146",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T22:22:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Slettaelva"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:40_260819123103785_1081",
+      "line": {
+       "publicCode": "40",
+       "name": "Tromsø museum - Slettaelva",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T22:26:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:24_261020195369135_1128",
+      "line": {
+       "publicCode": "24",
+       "name": "Skognesvegen - Giæverbukta - sentrum - Skjelnan",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T22:33:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Eidkjosen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101520_1143",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T22:34:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsdalen via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386534_1097",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T22:40:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø museum via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:40_260819123103887_1086",
+      "line": {
+       "publicCode": "40",
+       "name": "Tromsø museum - Slettaelva",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T22:43:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Skjelnan via Mortensnes / sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:24_261020195627949_1135",
+      "line": {
+       "publicCode": "24",
+       "name": "Skognesvegen - Giæverbukta - sentrum - Skjelnan",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T22:46:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386600_1094",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T22:49:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Stakkevollan via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101604_1148",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T22:52:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Slettaelva"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:40_260819123103786_1083",
+      "line": {
+       "publicCode": "40",
+       "name": "Tromsø museum - Slettaelva",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T22:56:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:24_261020195371139_1130",
+      "line": {
+       "publicCode": "24",
+       "name": "Skognesvegen - Giæverbukta - sentrum - Skjelnan",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T23:03:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Eidkjosen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101521_1145",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T23:04:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsdalen via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386535_1099",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T23:10:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø museum via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:40_260819123103888_1088",
+      "line": {
+       "publicCode": "40",
+       "name": "Tromsø museum - Slettaelva",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T23:13:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Skjelnan via Mortensnes / sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:24_261020195629956_1137",
+      "line": {
+       "publicCode": "24",
+       "name": "Skognesvegen - Giæverbukta - sentrum - Skjelnan",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T23:16:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386601_1096",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T23:19:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Stakkevollan via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101606_1150",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T23:22:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Slettaelva"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:40_260819123103787_1085",
+      "line": {
+       "publicCode": "40",
+       "name": "Tromsø museum - Slettaelva",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T23:26:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:24_261020195373142_1132",
+      "line": {
+       "publicCode": "24",
+       "name": "Skognesvegen - Giæverbukta - sentrum - Skjelnan",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T23:33:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Eidkjosen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101661_1147",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T23:34:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsdalen via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386536_1101",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T23:40:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø museum via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:40_260819123103889_1090",
+      "line": {
+       "publicCode": "40",
+       "name": "Tromsø museum - Slettaelva",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T23:43:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Skjelnan via Mortensnes / sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:24_261020195631964_1139",
+      "line": {
+       "publicCode": "24",
+       "name": "Skognesvegen - Giæverbukta - sentrum - Skjelnan",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T23:46:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386602_1098",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T23:49:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Stakkevollan via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101607_1152",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T23:51:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Slettaelva"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:40_260819123103813_1087",
+      "line": {
+       "publicCode": "40",
+       "name": "Tromsø museum - Slettaelva",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-05T23:56:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:24_261020195375148_1134",
+      "line": {
+       "publicCode": "24",
+       "name": "Skognesvegen - Giæverbukta - sentrum - Skjelnan",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T00:03:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Eidkjosen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101523_1149",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T00:16:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386603_1100",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T00:21:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Slettaelva"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:40_260819123103814_1089",
+      "line": {
+       "publicCode": "40",
+       "name": "Tromsø museum - Slettaelva",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T00:26:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:24_261020195377154_1136",
+      "line": {
+       "publicCode": "24",
+       "name": "Skognesvegen - Giæverbukta - sentrum - Skjelnan",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T00:33:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Eidkjosen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101522_1151",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T01:33:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386589_5500",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T01:42:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Slettaelva"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:40_260819123103760_5501",
+      "line": {
+       "publicCode": "40",
+       "name": "Tromsø museum - Slettaelva",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T01:45:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Eidkjosen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:42_260819123101398_5501",
+      "line": {
+       "publicCode": "42",
+       "name": "Stakkevollan-Sentrum-Eidkjosen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T01:48:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsdalen via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386522_5503",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T01:52:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:24_260928072877119_5500",
+      "line": {
+       "publicCode": "24",
+       "name": "Skognesvegen - Giæverbukta - sentrum - Skjelnan",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T02:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:40_260819123103803_5500",
+      "line": {
+       "publicCode": "40",
+       "name": "Tromsø museum - Slettaelva",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø lufthavn",
+      "publicCode": ""
+     }
+    }
+   ]
+  }
+ }
+}

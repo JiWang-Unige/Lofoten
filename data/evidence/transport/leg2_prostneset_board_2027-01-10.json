@@ -1,0 +1,1642 @@
+{
+ "data": {
+  "stopPlace": {
+   "name": "Prostneset Havneterminal",
+   "estimatedCalls": [
+    {
+     "aimedDepartureTime": "2027-01-10T18:15:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Kirkenes"
+     },
+     "serviceJourney": {
+      "id": "HAV:ServiceJourney:1",
+      "line": {
+       "publicCode": "HAV",
+       "name": "Bergen-Kirkenes-Bergen",
+       "authority": {
+        "name": "Havila"
+       },
+       "operator": {
+        "name": "Havila"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø kystrutekai",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-10T19:30:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Narvik"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:100_260918101382409_7007",
+      "line": {
+       "publicCode": "100",
+       "name": "Tromsø-Buktamoen-Narvik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Buss MT"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "7"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-10T20:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Harstad"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:2_250928220734144_7003",
+      "line": {
+       "publicCode": "2",
+       "name": "Tromsø - Finnsnes - Harstad",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Norled hurtigbåt"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset hurtigbåtkai",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-10T21:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Setermoen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:100_260918101382411_7009",
+      "line": {
+       "publicCode": "100",
+       "name": "Tromsø-Buktamoen-Narvik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Buss MT"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "7"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T01:30:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Bergen"
+     },
+     "serviceJourney": {
+      "id": "HAV:ServiceJourney:1",
+      "line": {
+       "publicCode": "HAV",
+       "name": "Bergen-Kirkenes-Bergen",
+       "authority": {
+        "name": "Havila"
+       },
+       "operator": {
+        "name": "Havila"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø kystrutekai",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T05:30:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Arctic Route Tromsø - Skjervøy"
+     },
+     "serviceJourney": {
+      "id": "BAR:ServiceJourney:58ddeee2-2aa3-4b53-adfb-5cfa9b36f318",
+      "line": {
+       "publicCode": "919",
+       "name": "Arctic Route Tromsø - Skjervøy / Skjervøy - Tromsø",
+       "authority": {
+        "name": "Best Arctic Group"
+       },
+       "operator": {
+        "name": "Bussring"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "1"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T06:20:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Narvik"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:100_260918101385020_1021",
+      "line": {
+       "publicCode": "100",
+       "name": "Tromsø-Buktamoen-Narvik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Buss MT"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "7"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T07:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Harstad"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:2_250928220734155_1001",
+      "line": {
+       "publicCode": "2",
+       "name": "Tromsø - Finnsnes - Harstad",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Norled hurtigbåt"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset hurtigbåtkai",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T07:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Rovaniemi - Tromsø"
+     },
+     "serviceJourney": {
+      "id": "BAR:ServiceJourney:6d440b52-daf5-4bac-b98e-4ba0fcfbe581",
+      "line": {
+       "publicCode": "106",
+       "name": "Arctic Route Tromsø - Rovaniemi / Rovaniemi - Tromsø",
+       "authority": {
+        "name": "Best Arctic Group"
+       },
+       "operator": {
+        "name": "Bussring"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "2"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T07:05:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Lysnes"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:4_250915140255432_1001",
+      "line": {
+       "publicCode": "4",
+       "name": "Tromsø-Vikran-Tennskjer-Lysnes",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Norled hurtigbåt"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset hurtigbåtkai",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T07:10:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ramfjord skole"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:412_260819123100425_1005",
+      "line": {
+       "publicCode": "412",
+       "name": "Tromsø-Olavsvern-Ramfj.-Laksv.",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Nordlandsbuss"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "5"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T07:14:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Skittenelv skole"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:450_261006101317882_1001",
+      "line": {
+       "publicCode": "450",
+       "name": "Tromsø - Oldervik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "1"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T07:37:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:105_260819123099048_1002",
+      "line": {
+       "publicCode": "105",
+       "name": "Tromsø - Øverbygd",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Buss MT"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "8"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T07:45:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ersfjord"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:425_260819123102451_1001",
+      "line": {
+       "publicCode": "425",
+       "name": "Tromvik-Ersfjord-Tromsø",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "2"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T08:15:00+01:00",
+     "destinationDisplay": {
+      "frontText": "UiT - UNN"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:21_260819123101914_1001",
+      "line": {
+       "publicCode": "21",
+       "name": "Sentrum - UNN",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "4"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T08:34:00+01:00",
+     "destinationDisplay": {
+      "frontText": "UiT - UNN"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:21_260819123101915_1003",
+      "line": {
+       "publicCode": "21",
+       "name": "Sentrum - UNN",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "4"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T08:40:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sørbotn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:412_260819123100429_1011",
+      "line": {
+       "publicCode": "412",
+       "name": "Tromsø-Olavsvern-Ramfj.-Laksv.",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Nordlandsbuss"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "5"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T08:45:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Oldervik"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:450_260918108225348_1003",
+      "line": {
+       "publicCode": "450",
+       "name": "Tromsø - Oldervik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "1"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T08:48:00+01:00",
+     "destinationDisplay": {
+      "frontText": "UiT - UNN"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:21_260819123101916_1005",
+      "line": {
+       "publicCode": "21",
+       "name": "Sentrum - UNN",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "4"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T09:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Arctic Route Tromsø - Storslett"
+     },
+     "serviceJourney": {
+      "id": "BAR:ServiceJourney:aafc286c-f753-44c0-b0d2-264a29e9d34c",
+      "line": {
+       "publicCode": "920",
+       "name": "Arctic Route Tromsø - Storslett / Storslett - Tromsø",
+       "authority": {
+        "name": "Best Arctic Group"
+       },
+       "operator": {
+        "name": "Bussring"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "7"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T09:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Arctic Route Tromsø - Narvik"
+     },
+     "serviceJourney": {
+      "id": "BAR:ServiceJourney:db148cdf-3a65-443b-a9a2-9e0ed42f5c4b",
+      "line": {
+       "publicCode": "915",
+       "name": "Arctic Route Tromsø - Narvik / Narvik - Tromsø",
+       "authority": {
+        "name": "Best Arctic Group"
+       },
+       "operator": {
+        "name": "Bussring"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "6"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T09:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Straumsbukta"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:420_260819123101236_1005",
+      "line": {
+       "publicCode": "420",
+       "name": "Tromsø-Straumsbukta-Sommarøy",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "2"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T09:02:00+01:00",
+     "destinationDisplay": {
+      "frontText": "UiT - UNN"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:21_260819123101917_1007",
+      "line": {
+       "publicCode": "21",
+       "name": "Sentrum - UNN",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "4"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T09:18:00+01:00",
+     "destinationDisplay": {
+      "frontText": "UiT - UNN"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:21_260819123101918_1009",
+      "line": {
+       "publicCode": "21",
+       "name": "Sentrum - UNN",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "4"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T09:33:00+01:00",
+     "destinationDisplay": {
+      "frontText": "UiT - UNN"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:21_260819123101919_1011",
+      "line": {
+       "publicCode": "21",
+       "name": "Sentrum - UNN",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "4"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T09:35:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:100_260819123099039_1002",
+      "line": {
+       "publicCode": "100",
+       "name": "Tromsø-Buktamoen-Narvik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Buss MT"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "8"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T09:40:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:160_260819123100612_1018",
+      "line": {
+       "publicCode": "160",
+       "name": "Tromsø-Skibotn-Storslett",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Nordlandsbuss"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "8"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T09:47:00+01:00",
+     "destinationDisplay": {
+      "frontText": "UiT - UNN"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:21_260819123101920_1013",
+      "line": {
+       "publicCode": "21",
+       "name": "Sentrum - UNN",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "4"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T10:16:00+01:00",
+     "destinationDisplay": {
+      "frontText": "UiT - UNN"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:21_260819123101921_1015",
+      "line": {
+       "publicCode": "21",
+       "name": "Sentrum - UNN",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "4"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T10:30:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Narvik"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:100_260819123099040_1003",
+      "line": {
+       "publicCode": "100",
+       "name": "Tromsø-Buktamoen-Narvik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Buss MT"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "7"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T10:45:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:150_260819123099061_1002",
+      "line": {
+       "publicCode": "150",
+       "name": "Tromsø-Lyngs.-Storslett-Alta",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Nordlandsbuss"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "8"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T11:15:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Kvaløyvågen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:428_260819123101259_1005",
+      "line": {
+       "publicCode": "428",
+       "name": "Tromsø - Kvaløyvågen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "3"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T12:25:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Hillesøy"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:420_260819123101235_1009",
+      "line": {
+       "publicCode": "420",
+       "name": "Tromsø-Straumsbukta-Sommarøy",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "2"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T12:25:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Steinnes"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:450_260918108280468_1011",
+      "line": {
+       "publicCode": "450",
+       "name": "Tromsø - Oldervik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "1"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T12:48:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Hansnes"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:430_260819123102464_1003",
+      "line": {
+       "publicCode": "430",
+       "name": "Tromsø - Skulgam - Hansnes",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "6"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T13:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Olavsvern"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:412_260819123100434_1017",
+      "line": {
+       "publicCode": "412",
+       "name": "Tromsø-Olavsvern-Ramfj.-Laksv.",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Nordlandsbuss"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "5"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T13:20:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ramfjord skole"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:412_260819123100424_1053",
+      "line": {
+       "publicCode": "412",
+       "name": "Tromsø-Olavsvern-Ramfj.-Laksv.",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Nordlandsbuss"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "5"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T13:30:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Oldervik"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:450_260918108302047_1017",
+      "line": {
+       "publicCode": "450",
+       "name": "Tromsø - Oldervik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "1"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T13:38:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sandvik Kvaløya"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:420_260819123101226_1017",
+      "line": {
+       "publicCode": "420",
+       "name": "Tromsø-Straumsbukta-Sommarøy",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "2"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T14:05:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Storslett"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:150_260819123099060_1009",
+      "line": {
+       "publicCode": "150",
+       "name": "Tromsø-Lyngs.-Storslett-Alta",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Nordlandsbuss"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "4"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T14:05:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Susannajord via Ersfjord"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:425_260819123102452_1019",
+      "line": {
+       "publicCode": "425",
+       "name": "Tromvik-Ersfjord-Tromsø",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "2"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T14:10:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Setermoen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:100_260819123099043_1007",
+      "line": {
+       "publicCode": "100",
+       "name": "Tromsø-Buktamoen-Narvik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Buss MT"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "7"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T14:20:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Oldervik"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:450_260918108289274_1029",
+      "line": {
+       "publicCode": "450",
+       "name": "Tromsø - Oldervik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "1"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T14:50:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Storslett"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:160_260819123100605_1019",
+      "line": {
+       "publicCode": "160",
+       "name": "Tromsø-Skibotn-Storslett",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Nordlandsbuss"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "4"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T15:08:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sandvik Kvaløya"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:420_260819123101227_1019",
+      "line": {
+       "publicCode": "420",
+       "name": "Tromsø-Straumsbukta-Sommarøy",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "2"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T15:10:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Myran"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:428_260819123101257_1013",
+      "line": {
+       "publicCode": "428",
+       "name": "Tromsø - Kvaløyvågen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "3"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T15:12:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sørbotn, ingen avstigning før Solligården"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:412_260819123100432_1025",
+      "line": {
+       "publicCode": "412",
+       "name": "Tromsø-Olavsvern-Ramfj.-Laksv.",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Nordlandsbuss"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "5"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T15:18:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Jøviknes"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:450_261006101317880_1033",
+      "line": {
+       "publicCode": "450",
+       "name": "Tromsø - Oldervik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "1"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T15:42:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sørbotn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:412_260819123100430_1029",
+      "line": {
+       "publicCode": "412",
+       "name": "Tromsø-Olavsvern-Ramfj.-Laksv.",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Nordlandsbuss"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "5"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T15:44:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Susannajord via Ersfjord"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:425_260819123102453_1025",
+      "line": {
+       "publicCode": "425",
+       "name": "Tromvik-Ersfjord-Tromsø",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "2"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T15:48:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Jøviknes"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:450_261006101317881_1035",
+      "line": {
+       "publicCode": "450",
+       "name": "Tromsø - Oldervik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "1"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T16:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Narvik"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:100_260819123099045_1011",
+      "line": {
+       "publicCode": "100",
+       "name": "Tromsø-Buktamoen-Narvik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Buss MT"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "7"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T16:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Setermoen korr. Sjøvegan"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:100_260819123099044_1009",
+      "line": {
+       "publicCode": "100",
+       "name": "Tromsø-Buktamoen-Narvik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Buss MT"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "6"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T16:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Alta"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:150_260819123099063_1013",
+      "line": {
+       "publicCode": "150",
+       "name": "Tromsø-Lyngs.-Storslett-Alta",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Nordlandsbuss"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "4"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T16:09:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Kvaløyvågen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:428_260819123101258_1015",
+      "line": {
+       "publicCode": "428",
+       "name": "Tromsø - Kvaløyvågen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "3"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T16:13:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sommarøy"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:420_260819123101225_1021",
+      "line": {
+       "publicCode": "420",
+       "name": "Tromsø-Straumsbukta-Sommarøy",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "2"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T16:15:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Harstad"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:2_250928220734156_1007",
+      "line": {
+       "publicCode": "2",
+       "name": "Tromsø - Finnsnes - Harstad",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Norled hurtigbåt"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset hurtigbåtkai",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T16:15:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Andersdal"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:412_260819123100428_1031",
+      "line": {
+       "publicCode": "412",
+       "name": "Tromsø-Olavsvern-Ramfj.-Laksv.",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Nordlandsbuss"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "5"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T16:19:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Oldervik"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:450_261006101317889_1037",
+      "line": {
+       "publicCode": "450",
+       "name": "Tromsø - Oldervik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "1"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T16:20:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Lysnes"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:4_260918155826896_1007",
+      "line": {
+       "publicCode": "4",
+       "name": "Tromsø-Vikran-Tennskjer-Lysnes",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Norled hurtigbåt"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset hurtigbåtkai",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T16:35:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Hansnes"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:430_260819123102469_1007",
+      "line": {
+       "publicCode": "430",
+       "name": "Tromsø - Skulgam - Hansnes",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "6"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T16:44:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Susannajord via Ersfjord"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:425_260819123102454_1033",
+      "line": {
+       "publicCode": "425",
+       "name": "Tromvik-Ersfjord-Tromsø",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "2"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T17:12:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sørbotn"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:412_260918101384336_1037",
+      "line": {
+       "publicCode": "412",
+       "name": "Tromsø-Olavsvern-Ramfj.-Laksv.",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Nordlandsbuss"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "5"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T17:15:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Straumsbukta"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:420_260819123101224_1023",
+      "line": {
+       "publicCode": "420",
+       "name": "Tromsø-Straumsbukta-Sommarøy",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "2"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T17:15:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Jøviknes"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:450_260918101386661_1039",
+      "line": {
+       "publicCode": "450",
+       "name": "Tromsø - Oldervik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "1"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T18:15:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Kirkenes"
+     },
+     "serviceJourney": {
+      "id": "HUR:ServiceJourney:Winter",
+      "line": {
+       "publicCode": "HUR",
+       "name": "Bergen-Kirkenes-Bergen",
+       "authority": {
+        "name": "Hurtigruten"
+       },
+       "operator": {
+        "name": "Hurtigruten"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø kystrutekai",
+      "publicCode": null
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T19:15:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Steinnes"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:450_260918101386662_1041",
+      "line": {
+       "publicCode": "450",
+       "name": "Tromsø - Oldervik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "1"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T19:20:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Skjervøy"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:3_260105145732621_1017",
+      "line": {
+       "publicCode": "3",
+       "name": "Tromsø - Skjervøy",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Norled hurtigbåt"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset hurtigbåtkai",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T19:30:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Gambukt"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:412_260918101384332_1047",
+      "line": {
+       "publicCode": "412",
+       "name": "Tromsø-Olavsvern-Ramfj.-Laksv.",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Nordlandsbuss"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "5"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T21:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Setermoen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:100_260918101382971_1015",
+      "line": {
+       "publicCode": "100",
+       "name": "Tromsø-Buktamoen-Narvik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Buss MT"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "7"
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-11T21:15:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Steinnes"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:450_260918101386663_1043",
+      "line": {
+       "publicCode": "450",
+       "name": "Tromsø - Oldervik",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Tromsø Prostneset",
+      "publicCode": "1"
+     }
+    }
+   ]
+  }
+ }
+}

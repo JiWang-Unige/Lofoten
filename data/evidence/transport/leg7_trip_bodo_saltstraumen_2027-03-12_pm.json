@@ -1,0 +1,74 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-12T17:07:00+01:00",
+     "expectedEndTime": "2027-03-12T17:45:00+01:00",
+     "duration": 2280,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T17:07:00+01:00",
+       "aimedEndTime": "2027-03-12T17:45:00+01:00",
+       "distance": 29824.0,
+       "fromPlace": {
+        "name": "Bodø sentrum regionbuss"
+       },
+       "toPlace": {
+        "name": "Saltstraumen"
+       },
+       "line": {
+        "publicCode": "200",
+        "name": "Bodø - Ørnes - Glomfjord - Halsa",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8200_260107092555530_1006"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T21:02:00+01:00",
+     "expectedEndTime": "2027-03-12T21:40:00+01:00",
+     "duration": 2280,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T21:02:00+01:00",
+       "aimedEndTime": "2027-03-12T21:40:00+01:00",
+       "distance": 29824.0,
+       "fromPlace": {
+        "name": "Bodø sentrum regionbuss"
+       },
+       "toPlace": {
+        "name": "Saltstraumen"
+       },
+       "line": {
+        "publicCode": "200",
+        "name": "Bodø - Ørnes - Glomfjord - Halsa",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8200_260106123552713_1002"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

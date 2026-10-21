@@ -1,0 +1,107 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-11T12:45:00+01:00",
+     "expectedEndTime": "2027-03-11T14:05:00+01:00",
+     "duration": 4800,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-11T12:45:00+01:00",
+       "aimedEndTime": "2027-03-11T14:05:00+01:00",
+       "distance": 62805.0,
+       "fromPlace": {
+        "name": "Leknes sentrum"
+       },
+       "toPlace": {
+        "name": "Moskenes kai"
+       },
+       "line": {
+        "publicCode": "742",
+        "name": "Leknes - Å i Lofoten",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8742_251012124857957_2006"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-11T15:45:00+01:00",
+     "expectedEndTime": "2027-03-11T17:15:00+01:00",
+     "duration": 5400,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-11T15:45:00+01:00",
+       "aimedEndTime": "2027-03-11T17:15:00+01:00",
+       "distance": 62805.0,
+       "fromPlace": {
+        "name": "Leknes sentrum"
+       },
+       "toPlace": {
+        "name": "Moskenes kai"
+       },
+       "line": {
+        "publicCode": "300",
+        "name": "Å-Leknes-Svolvær-Narvik",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:3760_251012124859148_1018"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-11T21:40:00+01:00",
+     "expectedEndTime": "2027-03-11T23:05:00+01:00",
+     "duration": 5100,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-11T21:40:00+01:00",
+       "aimedEndTime": "2027-03-11T23:05:00+01:00",
+       "distance": 62805.0,
+       "fromPlace": {
+        "name": "Leknes sentrum"
+       },
+       "toPlace": {
+        "name": "Moskenes kai"
+       },
+       "line": {
+        "publicCode": "300",
+        "name": "Å-Leknes-Svolvær-Narvik",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:3760_251012124859150_1015"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,216 @@
+{
+ "data": {
+  "stopPlace": {
+   "name": "Henrikvik kryss",
+   "estimatedCalls": [
+    {
+     "aimedDepartureTime": "2027-03-06T08:51:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Eidkjosen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:425_260819123102430_6000",
+      "line": {
+       "publicCode": "425",
+       "name": "Tromvik-Ersfjord-Tromsø",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Henrikvik kryss",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T09:27:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Skibuss - Sommarøya via Kattfjordeidet"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:422_260819123100903_6001",
+      "line": {
+       "publicCode": "422",
+       "name": "Brensholmen-Kattfjord-Eide",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Henrikvik kryss",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T09:28:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ersfjord"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:425_260819123102403_6001",
+      "line": {
+       "publicCode": "425",
+       "name": "Tromvik-Ersfjord-Tromsø",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Henrikvik kryss",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T09:51:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Eidkjosen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:425_260819123102431_6002",
+      "line": {
+       "publicCode": "425",
+       "name": "Tromvik-Ersfjord-Tromsø",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Henrikvik kryss",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T11:27:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Skibuss - Sommarøya via Kattfjordeidet"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:422_260819123100904_6003",
+      "line": {
+       "publicCode": "422",
+       "name": "Brensholmen-Kattfjord-Eide",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Henrikvik kryss",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T15:35:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ersfjord"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:425_260819123102416_6003",
+      "line": {
+       "publicCode": "425",
+       "name": "Tromvik-Ersfjord-Tromsø",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Henrikvik kryss",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T15:54:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Eidkjosen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:425_260819123102433_6004",
+      "line": {
+       "publicCode": "425",
+       "name": "Tromvik-Ersfjord-Tromsø",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Henrikvik kryss",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T18:35:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Ersfjord"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:425_260819123102417_6005",
+      "line": {
+       "publicCode": "425",
+       "name": "Tromvik-Ersfjord-Tromsø",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Henrikvik kryss",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T18:52:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Eidkjosen"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:425_260819123102434_6006",
+      "line": {
+       "publicCode": "425",
+       "name": "Tromvik-Ersfjord-Tromsø",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Henrikvik kryss",
+      "publicCode": ""
+     }
+    }
+   ]
+  }
+ }
+}

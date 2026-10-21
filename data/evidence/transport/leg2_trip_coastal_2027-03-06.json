@@ -1,0 +1,26 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "legs": [
+      {
+       "mode": "water",
+       "aimedStartTime": "2027-03-06T01:30:00+01:00",
+       "aimedEndTime": "2027-03-06T18:30:00+01:00",
+       "line": {
+        "publicCode": "HUR",
+        "operator": {
+         "name": "Hurtigruten"
+        }
+       },
+       "serviceJourney": {
+        "id": "HUR:ServiceJourney:Winter"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

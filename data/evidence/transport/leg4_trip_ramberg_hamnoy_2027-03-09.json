@@ -1,0 +1,140 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-09T09:22:00+01:00",
+     "expectedEndTime": "2027-03-09T09:47:00+01:00",
+     "duration": 1500,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-09T09:22:00+01:00",
+       "aimedEndTime": "2027-03-09T09:47:00+01:00",
+       "distance": 19826.0,
+       "fromPlace": {
+        "name": "Ramberg"
+       },
+       "toPlace": {
+        "name": "Hamnøy"
+       },
+       "line": {
+        "publicCode": "742",
+        "name": "Leknes - Å i Lofoten",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8742_251012124857963_2007"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-09T11:15:00+01:00",
+     "expectedEndTime": "2027-03-09T11:40:00+01:00",
+     "duration": 1500,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-09T11:15:00+01:00",
+       "aimedEndTime": "2027-03-09T11:40:00+01:00",
+       "distance": 19826.0,
+       "fromPlace": {
+        "name": "Ramberg"
+       },
+       "toPlace": {
+        "name": "Hamnøy"
+       },
+       "line": {
+        "publicCode": "742",
+        "name": "Leknes - Å i Lofoten",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8742_251012124855813_2004"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-09T13:20:00+01:00",
+     "expectedEndTime": "2027-03-09T13:45:00+01:00",
+     "duration": 1500,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-09T13:20:00+01:00",
+       "aimedEndTime": "2027-03-09T13:45:00+01:00",
+       "distance": 19826.0,
+       "fromPlace": {
+        "name": "Ramberg"
+       },
+       "toPlace": {
+        "name": "Hamnøy"
+       },
+       "line": {
+        "publicCode": "742",
+        "name": "Leknes - Å i Lofoten",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8742_251012124857957_2006"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-09T16:20:00+01:00",
+     "expectedEndTime": "2027-03-09T16:50:00+01:00",
+     "duration": 1800,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-09T16:20:00+01:00",
+       "aimedEndTime": "2027-03-09T16:50:00+01:00",
+       "distance": 19826.0,
+       "fromPlace": {
+        "name": "Ramberg"
+       },
+       "toPlace": {
+        "name": "Hamnøy"
+       },
+       "line": {
+        "publicCode": "300",
+        "name": "Å-Leknes-Svolvær-Narvik",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:3760_251012124859148_1018"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

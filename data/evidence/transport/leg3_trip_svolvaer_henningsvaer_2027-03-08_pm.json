@@ -1,0 +1,66 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-08T20:10:00+01:00",
+     "expectedEndTime": "2027-03-08T20:43:00+01:00",
+     "duration": 1980,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-08T20:10:00+01:00",
+       "aimedEndTime": "2027-03-08T20:30:00+01:00",
+       "distance": 17062.0,
+       "fromPlace": {
+        "name": "Svolvær sentrum Lofotgata"
+       },
+       "toPlace": {
+        "name": "Rørvik bussmøteplass"
+       },
+       "line": {
+        "publicCode": "300",
+        "name": "Å-Leknes-Svolvær-Narvik",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:3760_251012124900884_1016"
+       }
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-08T20:32:00+01:00",
+       "aimedEndTime": "2027-03-08T20:43:00+01:00",
+       "distance": 7592.0,
+       "fromPlace": {
+        "name": "Rørvik bussmøteplass"
+       },
+       "toPlace": {
+        "name": "Henningsvær sentrum"
+       },
+       "line": {
+        "publicCode": "743",
+        "name": "Svolvær-Kabelvåg-Henningsvær",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8743_251012124855847_1020"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

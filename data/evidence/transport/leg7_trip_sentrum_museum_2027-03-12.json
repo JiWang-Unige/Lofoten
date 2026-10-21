@@ -1,0 +1,265 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-12T12:20:00+01:00",
+     "expectedEndTime": "2027-03-12T12:46:31+01:00",
+     "duration": 1591,
+     "walkDistance": 1986.62,
+     "legs": [
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-12T12:20:00+01:00",
+       "aimedEndTime": "2027-03-12T12:46:31+01:00",
+       "distance": 1986.62,
+       "fromPlace": {
+        "name": "Bodø sentrum"
+       },
+       "toPlace": {
+        "name": "Destination"
+       },
+       "line": null,
+       "serviceJourney": null
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T12:20:00+01:00",
+     "expectedEndTime": "2027-03-12T12:32:41+01:00",
+     "duration": 761,
+     "walkDistance": 509.65,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T12:20:00+01:00",
+       "aimedEndTime": "2027-03-12T12:26:00+01:00",
+       "distance": 2222.0,
+       "fromPlace": {
+        "name": "Bodø sentrum"
+       },
+       "toPlace": {
+        "name": "City Nord"
+       },
+       "line": {
+        "publicCode": "2",
+        "name": "Bodø lufthavn - Bodø sentrum - Universitetet ",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8002_261016101731227_1056"
+       }
+      },
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-12T12:26:00+01:00",
+       "aimedEndTime": "2027-03-12T12:32:41+01:00",
+       "distance": 509.65,
+       "fromPlace": {
+        "name": "City Nord"
+       },
+       "toPlace": {
+        "name": "Destination"
+       },
+       "line": null,
+       "serviceJourney": null
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T12:25:00+01:00",
+     "expectedEndTime": "2027-03-12T12:37:41+01:00",
+     "duration": 761,
+     "walkDistance": 509.65,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T12:25:00+01:00",
+       "aimedEndTime": "2027-03-12T12:31:00+01:00",
+       "distance": 2222.0,
+       "fromPlace": {
+        "name": "Bodø sentrum"
+       },
+       "toPlace": {
+        "name": "City Nord"
+       },
+       "line": {
+        "publicCode": "1",
+        "name": "Bjørndalslia - Bodø sentrum -  Bodø lufthavn",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8001_261016101129177_1036"
+       }
+      },
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-12T12:31:00+01:00",
+       "aimedEndTime": "2027-03-12T12:37:41+01:00",
+       "distance": 509.65,
+       "fromPlace": {
+        "name": "City Nord"
+       },
+       "toPlace": {
+        "name": "Destination"
+       },
+       "line": null,
+       "serviceJourney": null
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T12:30:00+01:00",
+     "expectedEndTime": "2027-03-12T12:42:41+01:00",
+     "duration": 761,
+     "walkDistance": 509.65,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T12:30:00+01:00",
+       "aimedEndTime": "2027-03-12T12:36:00+01:00",
+       "distance": 2222.0,
+       "fromPlace": {
+        "name": "Bodø sentrum"
+       },
+       "toPlace": {
+        "name": "City Nord"
+       },
+       "line": {
+        "publicCode": "2",
+        "name": "Bodø lufthavn - Bodø sentrum - Universitetet ",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8002_261016101731306_1057"
+       }
+      },
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-12T12:36:00+01:00",
+       "aimedEndTime": "2027-03-12T12:42:41+01:00",
+       "distance": 509.65,
+       "fromPlace": {
+        "name": "City Nord"
+       },
+       "toPlace": {
+        "name": "Destination"
+       },
+       "line": null,
+       "serviceJourney": null
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T12:31:00+01:00",
+     "expectedEndTime": "2027-03-12T12:43:57+01:00",
+     "duration": 777,
+     "walkDistance": 506.49,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T12:31:00+01:00",
+       "aimedEndTime": "2027-03-12T12:37:00+01:00",
+       "distance": 2476.0,
+       "fromPlace": {
+        "name": "Bodø sentrum"
+       },
+       "toPlace": {
+        "name": "Stadiontunet"
+       },
+       "line": {
+        "publicCode": "3",
+        "name": "Stordalen - Bodø sentrum - Vollen ",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8003_261016102621663_1013"
+       }
+      },
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-12T12:37:00+01:00",
+       "aimedEndTime": "2027-03-12T12:43:57+01:00",
+       "distance": 506.49,
+       "fromPlace": {
+        "name": "Stadiontunet"
+       },
+       "toPlace": {
+        "name": "Destination"
+       },
+       "line": null,
+       "serviceJourney": null
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T12:32:00+01:00",
+     "expectedEndTime": "2027-03-12T12:45:41+01:00",
+     "duration": 821,
+     "walkDistance": 509.65,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T12:32:00+01:00",
+       "aimedEndTime": "2027-03-12T12:39:00+01:00",
+       "distance": 2386.0,
+       "fromPlace": {
+        "name": "Bodø sentrum regionbuss"
+       },
+       "toPlace": {
+        "name": "City Nord"
+       },
+       "line": {
+        "publicCode": "200",
+        "name": "Bodø - Ørnes - Glomfjord - Halsa",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8200_260106084352827_1004"
+       }
+      },
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-12T12:39:00+01:00",
+       "aimedEndTime": "2027-03-12T12:45:41+01:00",
+       "distance": 509.65,
+       "fromPlace": {
+        "name": "City Nord"
+       },
+       "toPlace": {
+        "name": "Destination"
+       },
+       "line": null,
+       "serviceJourney": null
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

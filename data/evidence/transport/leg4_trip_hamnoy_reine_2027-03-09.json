@@ -1,0 +1,140 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-09T11:40:00+01:00",
+     "expectedEndTime": "2027-03-09T11:50:00+01:00",
+     "duration": 600,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-09T11:40:00+01:00",
+       "aimedEndTime": "2027-03-09T11:50:00+01:00",
+       "distance": 6089.0,
+       "fromPlace": {
+        "name": "Hamnøy"
+       },
+       "toPlace": {
+        "name": "Reine"
+       },
+       "line": {
+        "publicCode": "742",
+        "name": "Leknes - Å i Lofoten",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8742_251012124855813_2004"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-09T13:45:00+01:00",
+     "expectedEndTime": "2027-03-09T13:55:00+01:00",
+     "duration": 600,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-09T13:45:00+01:00",
+       "aimedEndTime": "2027-03-09T13:55:00+01:00",
+       "distance": 6089.0,
+       "fromPlace": {
+        "name": "Hamnøy"
+       },
+       "toPlace": {
+        "name": "Reine"
+       },
+       "line": {
+        "publicCode": "742",
+        "name": "Leknes - Å i Lofoten",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8742_251012124857957_2006"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-09T14:45:00+01:00",
+     "expectedEndTime": "2027-03-09T14:55:00+01:00",
+     "duration": 600,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-09T14:45:00+01:00",
+       "aimedEndTime": "2027-03-09T14:55:00+01:00",
+       "distance": 6089.0,
+       "fromPlace": {
+        "name": "Hamnøy"
+       },
+       "toPlace": {
+        "name": "Reine"
+       },
+       "line": {
+        "publicCode": "772",
+        "name": "Å i Lofoten- Reine- Hamnøy",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8772_251012124856336_2006"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-09T16:50:00+01:00",
+     "expectedEndTime": "2027-03-09T17:02:00+01:00",
+     "duration": 720,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-09T16:50:00+01:00",
+       "aimedEndTime": "2027-03-09T17:02:00+01:00",
+       "distance": 6089.0,
+       "fromPlace": {
+        "name": "Hamnøy"
+       },
+       "toPlace": {
+        "name": "Reine"
+       },
+       "line": {
+        "publicCode": "300",
+        "name": "Å-Leknes-Svolvær-Narvik",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:3760_251012124859148_1018"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

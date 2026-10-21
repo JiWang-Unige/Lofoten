@@ -1,0 +1,119 @@
+You control your data
+
+We use cookies to collect information about you, and we use this information to 1. improve our website and give you a better user experience, 2. analyze how you use our website, 3. include or exclude you from receiving promotions through marketing on the basis of how you interact with our website. By clicking "OK", you give your consent for all these purposes. You can also choose to specify the purposes you consent to by ticking the checkbox next to the purpose and clicking "Save settings". You may withdraw your consent at any time by clicking the small icon at the bottom left corner of the website.
+
+
+
+Read more about cookies
+
+
+Edit cookies
+DECLINE ALL
+OK
+Necessary
+Functional
+Statistical
+Marketing
+powered by:
+Cookie Information
+Skip to content
+Voyages
+Experiences
+Offers
+Onboard
+Help and support
+EN
+Port-to-port
+Port-to-port
+
+Choose where you want to travel from and where you want to travel to, and customise your very own port-to-port journey. You can travel between 34 harbours along the Norwegian coastal route between Bergen and Kirkenes.
+
+Important information
+Booking
+FAQ
+Port-to-port travel
+
+A port-to-port trip lets you choose your own route and travel between selected ports, whether you are visiting a particular destination or simply exploring a section of the coast. It is a flexible way to travel, but requires a little more planning than our packaged voyages.
+
+Your ticket covers the selected port-to-port journey. Cabins, meals, vehicles and other extras can be added separately, where available. For a more straightforward trip with accommodation and experiences included, our packaged voyages may be a better fit.
+
+Important information
+
+Food is not included for port-to-port trips. If you want breakfast, lunch, and dinner, you can add meal packages when booking online (15% discount) or buy it from the café on board. Check-in opens when the ship docks. Generally, the latest check-in time is no later than 15 minutes before departure. In ports with shorter stops, check-in starts when the doors open.
+
+You must book your trip at least 2 hours before the ship arrives at port
+You can choose between a deckchair or a cabin when travelling overnight
+If you want breakfast, dinner and lunch, you must book these as extras
+You cannot book port-to-port trips earlier than 6 months before departure
+More information
+
+Port-to-port discounts
+
+Port-to-port itinerary
+
+Frequently asked questions
+
+Sailing schedule
+
+Book port-to-port
+
+Click on the button to book. This will take you to our service which will walk you through the booking process.
+
+Book port-to-port
+
+Need help with your booking? Don’t hesitate to contact our customer service center.
+
+FAQ
+Is food included with a port-to-port ticket?
+When can I book a port-to-port journey?
+When should I check in for a port-to-port journey?
+Where can I find port addresses and check-in times?
+What do I need to check-in?
+Which port-to-port discounts are available?
+How old must a child be to travel alone on a port-to-port journey?
+Where can I sit or rest without a cabin?
+Contact information
+Contact us
+
+Phone: +47 70 00 70 71
+
+About
+About Havila
+Press and media
+Careers
+ABTA & FCDO
+Terms and conditions
+Privacy notice
+Investors
+Support
+My booking
+For agents
+Claims and refunds
+Sailing schedule
+Brochures
+Follow us
+Facebook
+Instagram
+YouTube
+---REQS---
+200 https://api-eu1.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json?portalId=139741992
+200 https://forms-eu1.hscollectedforms.net/collected-forms/v1/config/json?portalId=139741992&utk=d9c3fa64663767285f9d16cb5a00b563
+---LINKS---
+https://www.facebook.com/privacy/explanation
+https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies#ie=ie-11
+https://support.microsoft.com/en-us/help/4027947/microsoft-edge-delete-cookies
+https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored
+https://support.google.com/chrome/answer/95647?hl=en
+https://support.apple.com/en-us/HT201265
+https://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager07.html
+https://support.apple.com/en-us/HT1677
+https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DAndroid&hl=en
+https://www.havilavoyages.com/en/port-to-port#main-content
+https://www.havilavoyages.com/en/port-to-port
+https://www.havilavoyages.com/en/port-to-port#important-information
+https://www.havilavoyages.com/en/port-to-port#book-port-to-port
+https://www.havilavoyages.com/en/port-to-port#faq
+https://www.havilavoyages.com/en/discounts-port-to-port
+https://www.havilavoyages.com/en/faq
+https://www.havilavoyages.com/en/sailing-schedule
+https://www.facebook.com/havilakystruten

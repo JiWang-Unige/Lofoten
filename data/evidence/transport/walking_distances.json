@@ -1,0 +1,122 @@
+{
+ "Reine->Olenilsøya": {
+  "data": {
+   "trip": {
+    "tripPatterns": [
+     {
+      "duration": 3687,
+      "walkDistance": 4516.63
+     }
+    ]
+   }
+  }
+ },
+ "Reine->Sakrisøy (67.9440,13.1120)": {
+  "data": {
+   "trip": {
+    "tripPatterns": [
+     {
+      "duration": 3515,
+      "walkDistance": 4303.33
+     }
+    ]
+   }
+  }
+ },
+ "Sørvågen->Moskenes ferjekai": {
+  "data": {
+   "trip": {
+    "tripPatterns": [
+     {
+      "duration": 1759,
+      "walkDistance": 2229.36
+     }
+    ]
+   }
+  }
+ },
+ "Reine->Moskenes ferjekai": {
+  "data": {
+   "trip": {
+    "tripPatterns": [
+     {
+      "duration": 4336,
+      "walkDistance": 5340.11
+     }
+    ]
+   }
+  }
+ },
+ "Å->Sørvågen": {
+  "data": {
+   "trip": {
+    "tripPatterns": [
+     {
+      "duration": 2396,
+      "walkDistance": 2882.14
+     }
+    ]
+   }
+  }
+ },
+ "Bodø ferjekai->Bodø sentrum": {
+  "data": {
+   "trip": {
+    "tripPatterns": [
+     {
+      "duration": 820,
+      "walkDistance": 964.97
+     }
+    ]
+   }
+  }
+ },
+ "Bodø sentrum->Bodø lufthavn": {
+  "data": {
+   "trip": {
+    "tripPatterns": [
+     {
+      "duration": 1055,
+      "walkDistance": 1295.45
+     }
+    ]
+   }
+  }
+ },
+ "Tromsø lufthavn->Fr. Langes gate": {
+  "data": {
+   "trip": {
+    "tripPatterns": [
+     {
+      "duration": 4474,
+      "walkDistance": 5294.0
+     }
+    ]
+   }
+  }
+ },
+ "Fr. Langes gate->Prostneset kystrutekai": {
+  "data": {
+   "trip": {
+    "tripPatterns": [
+     {
+      "duration": 292,
+      "walkDistance": 357.68
+     }
+    ]
+   }
+  }
+ },
+ "Svolvær kystrutekai->Lofotgata": {
+  "data": {
+   "trip": {
+    "tripPatterns": [
+     {
+      "duration": 430,
+      "walkDistance": 511.8
+     }
+    ]
+   }
+  }
+ }
+}

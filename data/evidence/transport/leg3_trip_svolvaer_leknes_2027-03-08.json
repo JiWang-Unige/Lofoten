@@ -1,0 +1,173 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-08T06:25:00+01:00",
+     "expectedEndTime": "2027-03-08T07:50:00+01:00",
+     "duration": 5100,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-08T06:25:00+01:00",
+       "aimedEndTime": "2027-03-08T07:50:00+01:00",
+       "distance": 70985.0,
+       "fromPlace": {
+        "name": "Svolvær sentrum Lofotgata"
+       },
+       "toPlace": {
+        "name": "Leknes sentrum"
+       },
+       "line": {
+        "publicCode": "741",
+        "name": "Svolvær - Leknes",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8741_251012124855771_1001"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-08T09:15:00+01:00",
+     "expectedEndTime": "2027-03-08T10:39:00+01:00",
+     "duration": 5040,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-08T09:15:00+01:00",
+       "aimedEndTime": "2027-03-08T10:39:00+01:00",
+       "distance": 69870.0,
+       "fromPlace": {
+        "name": "Svolvær sentrum Lofotgata"
+       },
+       "toPlace": {
+        "name": "Leknes sentrum"
+       },
+       "line": {
+        "publicCode": "741",
+        "name": "Svolvær - Leknes",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8741_251012124855772_1005"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-08T11:00:00+01:00",
+     "expectedEndTime": "2027-03-08T12:24:00+01:00",
+     "duration": 5040,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-08T11:00:00+01:00",
+       "aimedEndTime": "2027-03-08T12:24:00+01:00",
+       "distance": 69870.0,
+       "fromPlace": {
+        "name": "Svolvær sentrum Lofotgata"
+       },
+       "toPlace": {
+        "name": "Leknes sentrum"
+       },
+       "line": {
+        "publicCode": "741",
+        "name": "Svolvær - Leknes",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8741_251012124855773_1006"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-08T14:00:00+01:00",
+     "expectedEndTime": "2027-03-08T15:25:00+01:00",
+     "duration": 5100,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-08T14:00:00+01:00",
+       "aimedEndTime": "2027-03-08T15:25:00+01:00",
+       "distance": 69910.0,
+       "fromPlace": {
+        "name": "Svolvær sentrum Lofotgata"
+       },
+       "toPlace": {
+        "name": "Leknes sentrum"
+       },
+       "line": {
+        "publicCode": "300",
+        "name": "Å-Leknes-Svolvær-Narvik",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:3760_251012124855083_1014"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-08T15:45:00+01:00",
+     "expectedEndTime": "2027-03-08T17:10:00+01:00",
+     "duration": 5100,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-08T15:45:00+01:00",
+       "aimedEndTime": "2027-03-08T17:10:00+01:00",
+       "distance": 70188.0,
+       "fromPlace": {
+        "name": "Svolvær sentrum Lofotgata"
+       },
+       "toPlace": {
+        "name": "Leknes sentrum"
+       },
+       "line": {
+        "publicCode": "741",
+        "name": "Svolvær - Leknes",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8741_251012124855777_1016"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

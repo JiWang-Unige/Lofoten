@@ -1,0 +1,20 @@
+<tide>
+<locationdata>
+<location name="Bodø" code="BOO" latitude="67.288000" longitude="14.402000" delay="0" factor="1.00" obsname="Bodø" obscode="BOO" descr="Tides from Bodø"/>
+<reflevelcode>CD</reflevelcode>
+<data type="prediction" unit="cm" qualityFlag="1" qualityClass="Quality High" qualityDescription="High quality data: It has been verified against measurements that the data represents physical conditions.">
+<waterlevel value="282.3" time="2027-03-11T02:02:00+01:00" flag="high"/>
+<waterlevel value="55.3" time="2027-03-11T08:04:00+01:00" flag="low"/>
+<waterlevel value="292.3" time="2027-03-11T14:08:00+01:00" flag="high"/>
+<waterlevel value="43.0" time="2027-03-11T20:25:00+01:00" flag="low"/>
+<waterlevel value="279.8" time="2027-03-12T02:35:00+01:00" flag="high"/>
+<waterlevel value="61.5" time="2027-03-12T08:37:00+01:00" flag="low"/>
+<waterlevel value="284.8" time="2027-03-12T14:43:00+01:00" flag="high"/>
+<waterlevel value="51.8" time="2027-03-12T20:57:00+01:00" flag="low"/>
+<waterlevel value="272.6" time="2027-03-13T03:10:00+01:00" flag="high"/>
+<waterlevel value="72.0" time="2027-03-13T09:13:00+01:00" flag="low"/>
+<waterlevel value="271.7" time="2027-03-13T15:22:00+01:00" flag="high"/>
+<waterlevel value="65.8" time="2027-03-13T21:33:00+01:00" flag="low"/>
+</data>
+</locationdata>
+</tide>

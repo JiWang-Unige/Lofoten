@@ -1,0 +1,460 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-12T06:47:00+01:00",
+     "expectedEndTime": "2027-03-12T07:29:00+01:00",
+     "duration": 2520,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T06:47:00+01:00",
+       "aimedEndTime": "2027-03-12T07:29:00+01:00",
+       "distance": 30315.0,
+       "fromPlace": {
+        "name": "Bodø sentrum regionbuss"
+       },
+       "toPlace": {
+        "name": "Saltstraumen"
+       },
+       "line": {
+        "publicCode": "300",
+        "name": "Bodø - Misvær - Beiarn",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8300_251012124901445_1001"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T07:20:00+01:00",
+     "expectedEndTime": "2027-03-12T08:03:00+01:00",
+     "duration": 2580,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T07:20:00+01:00",
+       "aimedEndTime": "2027-03-12T08:03:00+01:00",
+       "distance": 30617.0,
+       "fromPlace": {
+        "name": "Bodø sentrum regionbuss"
+       },
+       "toPlace": {
+        "name": "Saltstraumen"
+       },
+       "line": {
+        "publicCode": "300",
+        "name": "Bodø - Misvær - Beiarn",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8300_251012124859360_1014"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T08:07:00+01:00",
+     "expectedEndTime": "2027-03-12T08:49:00+01:00",
+     "duration": 2520,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T08:07:00+01:00",
+       "aimedEndTime": "2027-03-12T08:30:00+01:00",
+       "distance": 17897.0,
+       "fromPlace": {
+        "name": "Bodø sentrum"
+       },
+       "toPlace": {
+        "name": "Tverlandet"
+       },
+       "line": {
+        "publicCode": "4",
+        "name": "Tverlandet - Bodø sentrum - Løpsmarka",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8004_261016102825347_1007"
+       }
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T08:35:00+01:00",
+       "aimedEndTime": "2027-03-12T08:49:00+01:00",
+       "distance": 13227.0,
+       "fromPlace": {
+        "name": "Tverlandet"
+       },
+       "toPlace": {
+        "name": "Saltstraumen"
+       },
+       "line": {
+        "publicCode": "526",
+        "name": "Tverlandet-Saltstraumen",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8526_251012124859430_1002"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T10:07:00+01:00",
+     "expectedEndTime": "2027-03-12T10:49:00+01:00",
+     "duration": 2520,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T10:07:00+01:00",
+       "aimedEndTime": "2027-03-12T10:30:00+01:00",
+       "distance": 17897.0,
+       "fromPlace": {
+        "name": "Bodø sentrum"
+       },
+       "toPlace": {
+        "name": "Tverlandet"
+       },
+       "line": {
+        "publicCode": "4",
+        "name": "Tverlandet - Bodø sentrum - Løpsmarka",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8004_261016102825822_1013"
+       }
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T10:35:00+01:00",
+       "aimedEndTime": "2027-03-12T10:49:00+01:00",
+       "distance": 13227.0,
+       "fromPlace": {
+        "name": "Tverlandet"
+       },
+       "toPlace": {
+        "name": "Saltstraumen"
+       },
+       "line": {
+        "publicCode": "526",
+        "name": "Tverlandet-Saltstraumen",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8526_251012124859433_1012"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T12:32:00+01:00",
+     "expectedEndTime": "2027-03-12T13:10:00+01:00",
+     "duration": 2280,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T12:32:00+01:00",
+       "aimedEndTime": "2027-03-12T13:10:00+01:00",
+       "distance": 29824.0,
+       "fromPlace": {
+        "name": "Bodø sentrum regionbuss"
+       },
+       "toPlace": {
+        "name": "Saltstraumen"
+       },
+       "line": {
+        "publicCode": "200",
+        "name": "Bodø - Ørnes - Glomfjord - Halsa",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8200_260106084352827_1004"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T12:52:00+01:00",
+     "expectedEndTime": "2027-03-12T13:30:00+01:00",
+     "duration": 2280,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T12:52:00+01:00",
+       "aimedEndTime": "2027-03-12T13:30:00+01:00",
+       "distance": 30315.0,
+       "fromPlace": {
+        "name": "Bodø sentrum regionbuss"
+       },
+       "toPlace": {
+        "name": "Saltstraumen"
+       },
+       "line": {
+        "publicCode": "300",
+        "name": "Bodø - Misvær - Beiarn",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8300_251012124859362_1003"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T13:30:00+01:00",
+     "expectedEndTime": "2027-03-12T14:26:00+01:00",
+     "duration": 3360,
+     "walkDistance": 654.63,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T13:30:00+01:00",
+       "aimedEndTime": "2027-03-12T13:53:00+01:00",
+       "distance": 17457.0,
+       "fromPlace": {
+        "name": "Bodø sentrum regionbuss"
+       },
+       "toPlace": {
+        "name": "Tverlandet"
+       },
+       "line": {
+        "publicCode": "100",
+        "name": "Bodø - Fauske - Narvik/Sortland",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8100_260126119349442_1019"
+       }
+      },
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-12T13:53:00+01:00",
+       "aimedEndTime": "2027-03-12T14:01:25+01:00",
+       "distance": 654.63,
+       "fromPlace": {
+        "name": "Tverlandet"
+       },
+       "toPlace": {
+        "name": "Nye Tverlandet skole"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T14:10:00+01:00",
+       "aimedEndTime": "2027-03-12T14:26:00+01:00",
+       "distance": 12324.0,
+       "fromPlace": {
+        "name": "Nye Tverlandet skole"
+       },
+       "toPlace": {
+        "name": "Saltstraumen"
+       },
+       "line": {
+        "publicCode": "526",
+        "name": "Tverlandet-Saltstraumen",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8526_251012124859422_1007"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T14:50:00+01:00",
+     "expectedEndTime": "2027-03-12T15:33:00+01:00",
+     "duration": 2580,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T14:50:00+01:00",
+       "aimedEndTime": "2027-03-12T15:33:00+01:00",
+       "distance": 30617.0,
+       "fromPlace": {
+        "name": "Bodø sentrum regionbuss"
+       },
+       "toPlace": {
+        "name": "Saltstraumen"
+       },
+       "line": {
+        "publicCode": "300",
+        "name": "Bodø - Misvær - Beiarn",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8300_251012124859359_1004"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T14:52:00+01:00",
+     "expectedEndTime": "2027-03-12T15:34:00+01:00",
+     "duration": 2520,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T14:52:00+01:00",
+       "aimedEndTime": "2027-03-12T15:34:00+01:00",
+       "distance": 29824.0,
+       "fromPlace": {
+        "name": "Bodø sentrum regionbuss"
+       },
+       "toPlace": {
+        "name": "Saltstraumen"
+       },
+       "line": {
+        "publicCode": "200",
+        "name": "Bodø - Ørnes - Glomfjord - Halsa",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8200_260106114067183_1001"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T15:47:00+01:00",
+     "expectedEndTime": "2027-03-12T16:25:00+01:00",
+     "duration": 2280,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T15:47:00+01:00",
+       "aimedEndTime": "2027-03-12T16:25:00+01:00",
+       "distance": 30315.0,
+       "fromPlace": {
+        "name": "Bodø sentrum regionbuss"
+       },
+       "toPlace": {
+        "name": "Saltstraumen"
+       },
+       "line": {
+        "publicCode": "300",
+        "name": "Bodø - Misvær - Beiarn",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8300_251012124859361_1006"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-12T16:15:00+01:00",
+     "expectedEndTime": "2027-03-12T17:00:00+01:00",
+     "duration": 2700,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-12T16:15:00+01:00",
+       "aimedEndTime": "2027-03-12T17:00:00+01:00",
+       "distance": 30315.0,
+       "fromPlace": {
+        "name": "Bodø sentrum regionbuss"
+       },
+       "toPlace": {
+        "name": "Saltstraumen"
+       },
+       "line": {
+        "publicCode": "300",
+        "name": "Bodø - Misvær - Beiarn",
+        "operator": {
+         "name": "Nordlandsbuss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8300_251012124859378_1007"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

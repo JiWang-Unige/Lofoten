@@ -1,0 +1,205 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-08T07:00:00+01:00",
+     "expectedEndTime": "2027-03-08T13:57:08+01:00",
+     "duration": 25028,
+     "walkDistance": 692.1600000000001,
+     "legs": [
+      {
+       "mode": "water",
+       "aimedStartTime": "2027-03-08T07:00:00+01:00",
+       "aimedEndTime": "2027-03-08T10:00:00+01:00",
+       "distance": 151928.0,
+       "fromPlace": {
+        "name": "Tromsø Prostneset hurtigbåtkai"
+       },
+       "toPlace": {
+        "name": "Harstad hurtigbåtkai"
+       },
+       "line": {
+        "publicCode": "2",
+        "name": "Tromsø - Finnsnes - Harstad",
+        "operator": {
+         "name": "Norled hurtigbåt"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:2_250928220734155_1001"
+       }
+      },
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-08T10:00:00+01:00",
+       "aimedEndTime": "2027-03-08T10:02:56+01:00",
+       "distance": 180.15,
+       "fromPlace": {
+        "name": "Harstad hurtigbåtkai"
+       },
+       "toPlace": {
+        "name": "Harstad Byterminal"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-08T10:40:00+01:00",
+       "aimedEndTime": "2027-03-08T11:10:00+01:00",
+       "distance": 26864.0,
+       "fromPlace": {
+        "name": "Harstad Byterminal"
+       },
+       "toPlace": {
+        "name": "Tjeldsund Kro"
+       },
+       "line": {
+        "publicCode": "200",
+        "name": "Harstad - Tjeldsund kro - Bjerkvik",
+        "operator": {
+         "name": "Torghatten Buss Sør-Troms"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:200_260819123100096_1001"
+       }
+      },
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-08T11:10:00+01:00",
+       "aimedEndTime": "2027-03-08T11:10:01+01:00",
+       "distance": 0.21,
+       "fromPlace": {
+        "name": "Tjeldsund Kro"
+       },
+       "toPlace": {
+        "name": "Tjeldsund Kro"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-08T11:20:00+01:00",
+       "aimedEndTime": "2027-03-08T13:50:00+01:00",
+       "distance": 152576.0,
+       "fromPlace": {
+        "name": "Tjeldsund Kro"
+       },
+       "toPlace": {
+        "name": "Svolvær sentrum Lofotgata"
+       },
+       "line": {
+        "publicCode": "300",
+        "name": "Narvik - Svolvær - Leknes - Å",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8640_251012124900910_1001"
+       }
+      },
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-08T13:50:00+01:00",
+       "aimedEndTime": "2027-03-08T13:57:08+01:00",
+       "distance": 511.8,
+       "fromPlace": {
+        "name": "Svolvær sentrum Lofotgata"
+       },
+       "toPlace": {
+        "name": "Svolvær kystrutekai"
+       },
+       "line": null,
+       "serviceJourney": null
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-08T06:20:00+01:00",
+     "expectedEndTime": "2027-03-08T13:57:08+01:00",
+     "duration": 27428,
+     "walkDistance": 511.8,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-08T06:20:00+01:00",
+       "aimedEndTime": "2027-03-08T09:48:00+01:00",
+       "distance": 219249.0,
+       "fromPlace": {
+        "name": "Tromsø Prostneset"
+       },
+       "toPlace": {
+        "name": "Bjerkvik"
+       },
+       "line": {
+        "publicCode": "100",
+        "name": "Tromsø-Buktamoen-Narvik",
+        "operator": {
+         "name": "Tide Buss MT"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:100_260918101385020_1021"
+       }
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-08T10:10:00+01:00",
+       "aimedEndTime": "2027-03-08T13:50:00+01:00",
+       "distance": 212616.0,
+       "fromPlace": {
+        "name": "Bjerkvik"
+       },
+       "toPlace": {
+        "name": "Svolvær sentrum Lofotgata"
+       },
+       "line": {
+        "publicCode": "300",
+        "name": "Narvik - Svolvær - Leknes - Å",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8640_251012124900910_1001"
+       }
+      },
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-08T13:50:00+01:00",
+       "aimedEndTime": "2027-03-08T13:57:08+01:00",
+       "distance": 511.8,
+       "fromPlace": {
+        "name": "Svolvær sentrum Lofotgata"
+       },
+       "toPlace": {
+        "name": "Svolvær kystrutekai"
+       },
+       "line": null,
+       "serviceJourney": null
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

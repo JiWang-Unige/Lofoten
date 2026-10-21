@@ -1,0 +1,173 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-11T07:45:00+01:00",
+     "expectedEndTime": "2027-03-11T08:05:00+01:00",
+     "duration": 1200,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-11T07:45:00+01:00",
+       "aimedEndTime": "2027-03-11T08:05:00+01:00",
+       "distance": 10733.0,
+       "fromPlace": {
+        "name": "Reine"
+       },
+       "toPlace": {
+        "name": "Å i Lofoten"
+       },
+       "line": {
+        "publicCode": "772",
+        "name": "Å i Lofoten- Reine- Hamnøy",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8772_251012124856054_2001"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-11T09:57:00+01:00",
+     "expectedEndTime": "2027-03-11T10:27:00+01:00",
+     "duration": 1800,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-11T09:57:00+01:00",
+       "aimedEndTime": "2027-03-11T10:27:00+01:00",
+       "distance": 10733.0,
+       "fromPlace": {
+        "name": "Reine"
+       },
+       "toPlace": {
+        "name": "Å i Lofoten"
+       },
+       "line": {
+        "publicCode": "742",
+        "name": "Leknes - Å i Lofoten",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8742_251012124857963_2007"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-11T11:50:00+01:00",
+     "expectedEndTime": "2027-03-11T12:20:00+01:00",
+     "duration": 1800,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-11T11:50:00+01:00",
+       "aimedEndTime": "2027-03-11T12:20:00+01:00",
+       "distance": 10733.0,
+       "fromPlace": {
+        "name": "Reine"
+       },
+       "toPlace": {
+        "name": "Å i Lofoten"
+       },
+       "line": {
+        "publicCode": "742",
+        "name": "Leknes - Å i Lofoten",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8742_251012124855813_2004"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-11T13:55:00+01:00",
+     "expectedEndTime": "2027-03-11T14:25:00+01:00",
+     "duration": 1800,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-11T13:55:00+01:00",
+       "aimedEndTime": "2027-03-11T14:25:00+01:00",
+       "distance": 10733.0,
+       "fromPlace": {
+        "name": "Reine"
+       },
+       "toPlace": {
+        "name": "Å i Lofoten"
+       },
+       "line": {
+        "publicCode": "742",
+        "name": "Leknes - Å i Lofoten",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:8742_251012124857957_2006"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-11T17:02:00+01:00",
+     "expectedEndTime": "2027-03-11T17:25:00+01:00",
+     "duration": 1380,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-11T17:02:00+01:00",
+       "aimedEndTime": "2027-03-11T17:25:00+01:00",
+       "distance": 10733.0,
+       "fromPlace": {
+        "name": "Reine"
+       },
+       "toPlace": {
+        "name": "Å i Lofoten"
+       },
+       "line": {
+        "publicCode": "300",
+        "name": "Å-Leknes-Svolvær-Narvik",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:3760_251012124859148_1018"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

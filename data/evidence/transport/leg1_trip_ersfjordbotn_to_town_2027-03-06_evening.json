@@ -1,0 +1,80 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-06T18:48:00+01:00",
+     "expectedEndTime": "2027-03-06T19:43:16+01:00",
+     "duration": 3316,
+     "walkDistance": 68.05,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T18:48:00+01:00",
+       "aimedEndTime": "2027-03-06T19:00:00+01:00",
+       "distance": 6578.0,
+       "fromPlace": {
+        "name": "Ersfjordbotn"
+       },
+       "toPlace": {
+        "name": "Eidkjosen"
+       },
+       "line": {
+        "publicCode": "425",
+        "name": "Tromvik-Ersfjord-Tromsø",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:425_260819123102434_6006"
+       }
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T19:04:00+01:00",
+       "aimedEndTime": "2027-03-06T19:42:00+01:00",
+       "distance": 19229.0,
+       "fromPlace": {
+        "name": "Eidkjosen"
+       },
+       "toPlace": {
+        "name": "Killengreens gate"
+       },
+       "line": {
+        "publicCode": "42",
+        "name": "Stakkevollan-Sentrum-Eidkjosen",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:42_260819123101580_6086"
+       }
+      },
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-06T19:42:00+01:00",
+       "aimedEndTime": "2027-03-06T19:43:16+01:00",
+       "distance": 68.05,
+       "fromPlace": {
+        "name": "Killengreens gate"
+       },
+       "toPlace": {
+        "name": "Fr. Langes gate"
+       },
+       "line": null,
+       "serviceJourney": null
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

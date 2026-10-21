@@ -1,0 +1,43 @@
+{
+ "data": {
+  "stopPlace": {
+   "name": "Moskenes ferjekai",
+   "estimatedCalls": [
+    {
+     "aimedDepartureTime": "2027-01-29T08:00:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Bodø ferjekai"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8782_251012124901465_2004",
+      "line": {
+       "id": "NOR:Line:12_8782",
+       "publicCode": "18-782",
+       "name": "A-rute Bodø - Værøy - Røst - Moskenes",
+       "operator": {
+        "name": "Torghatten Nord AS"
+       }
+      }
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-01-29T20:30:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Værøy ferjekai"
+     },
+     "serviceJourney": {
+      "id": "NOR:ServiceJourney:8782_260904105724545_1011",
+      "line": {
+       "id": "NOR:Line:12_8782",
+       "publicCode": "18-782",
+       "name": "A-rute Bodø - Værøy - Røst - Moskenes",
+       "operator": {
+        "name": "Torghatten Nord AS"
+       }
+      }
+     }
+    }
+   ]
+  }
+ }
+}

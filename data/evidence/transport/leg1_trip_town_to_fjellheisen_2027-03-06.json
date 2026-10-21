@@ -1,0 +1,365 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-06T10:09:02+01:00",
+     "expectedEndTime": "2027-03-06T10:21:00+01:00",
+     "duration": 718,
+     "walkDistance": 211.09,
+     "legs": [
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-06T10:09:02+01:00",
+       "aimedEndTime": "2027-03-06T10:12:00+01:00",
+       "distance": 211.09,
+       "fromPlace": {
+        "name": "Fr. Langes gate"
+       },
+       "toPlace": {
+        "name": "Torgsenteret"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T10:12:00+01:00",
+       "aimedEndTime": "2027-03-06T10:21:00+01:00",
+       "distance": 3898.0,
+       "fromPlace": {
+        "name": "Torgsenteret"
+       },
+       "toPlace": {
+        "name": "Fjellheisen"
+       },
+       "line": {
+        "publicCode": "26B",
+        "name": "Torgsenteret - Pyramiden - Fjellheisen",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:25_260918108721685_6001"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-06T10:24:02+01:00",
+     "expectedEndTime": "2027-03-06T10:36:00+01:00",
+     "duration": 718,
+     "walkDistance": 211.09,
+     "legs": [
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-06T10:24:02+01:00",
+       "aimedEndTime": "2027-03-06T10:27:00+01:00",
+       "distance": 211.09,
+       "fromPlace": {
+        "name": "Fr. Langes gate"
+       },
+       "toPlace": {
+        "name": "Torgsenteret"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T10:27:00+01:00",
+       "aimedEndTime": "2027-03-06T10:33:00+01:00",
+       "distance": 2721.0,
+       "fromPlace": {
+        "name": "Torgsenteret"
+       },
+       "toPlace": {
+        "name": "Pyramiden"
+       },
+       "line": {
+        "publicCode": "26",
+        "name": "Tromsø lufthavn-sentrum-Pyramiden",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:26_260918106813784_6019"
+       }
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T10:33:00+01:00",
+       "aimedEndTime": "2027-03-06T10:36:00+01:00",
+       "distance": 1177.0,
+       "fromPlace": {
+        "name": "Pyramiden"
+       },
+       "toPlace": {
+        "name": "Fjellheisen"
+       },
+       "line": {
+        "publicCode": "26",
+        "name": "Tromsø lufthavn-sentrum-Pyramiden",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:26_260918106989535_6020"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-06T10:39:02+01:00",
+     "expectedEndTime": "2027-03-06T10:51:00+01:00",
+     "duration": 718,
+     "walkDistance": 211.09,
+     "legs": [
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-06T10:39:02+01:00",
+       "aimedEndTime": "2027-03-06T10:42:00+01:00",
+       "distance": 211.09,
+       "fromPlace": {
+        "name": "Fr. Langes gate"
+       },
+       "toPlace": {
+        "name": "Torgsenteret"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T10:42:00+01:00",
+       "aimedEndTime": "2027-03-06T10:51:00+01:00",
+       "distance": 3898.0,
+       "fromPlace": {
+        "name": "Torgsenteret"
+       },
+       "toPlace": {
+        "name": "Fjellheisen"
+       },
+       "line": {
+        "publicCode": "26B",
+        "name": "Torgsenteret - Pyramiden - Fjellheisen",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:25_260918108723673_6003"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-06T10:54:02+01:00",
+     "expectedEndTime": "2027-03-06T11:06:00+01:00",
+     "duration": 718,
+     "walkDistance": 211.09,
+     "legs": [
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-06T10:54:02+01:00",
+       "aimedEndTime": "2027-03-06T10:57:00+01:00",
+       "distance": 211.09,
+       "fromPlace": {
+        "name": "Fr. Langes gate"
+       },
+       "toPlace": {
+        "name": "Torgsenteret"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T10:57:00+01:00",
+       "aimedEndTime": "2027-03-06T11:03:00+01:00",
+       "distance": 2721.0,
+       "fromPlace": {
+        "name": "Torgsenteret"
+       },
+       "toPlace": {
+        "name": "Pyramiden"
+       },
+       "line": {
+        "publicCode": "26",
+        "name": "Tromsø lufthavn-sentrum-Pyramiden",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:26_260918106815793_6021"
+       }
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T11:03:00+01:00",
+       "aimedEndTime": "2027-03-06T11:06:00+01:00",
+       "distance": 1177.0,
+       "fromPlace": {
+        "name": "Pyramiden"
+       },
+       "toPlace": {
+        "name": "Fjellheisen"
+       },
+       "line": {
+        "publicCode": "26",
+        "name": "Tromsø lufthavn-sentrum-Pyramiden",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:26_260918106947159_6022"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-06T11:09:02+01:00",
+     "expectedEndTime": "2027-03-06T11:21:00+01:00",
+     "duration": 718,
+     "walkDistance": 211.09,
+     "legs": [
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-06T11:09:02+01:00",
+       "aimedEndTime": "2027-03-06T11:12:00+01:00",
+       "distance": 211.09,
+       "fromPlace": {
+        "name": "Fr. Langes gate"
+       },
+       "toPlace": {
+        "name": "Torgsenteret"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T11:12:00+01:00",
+       "aimedEndTime": "2027-03-06T11:21:00+01:00",
+       "distance": 3898.0,
+       "fromPlace": {
+        "name": "Torgsenteret"
+       },
+       "toPlace": {
+        "name": "Fjellheisen"
+       },
+       "line": {
+        "publicCode": "26B",
+        "name": "Torgsenteret - Pyramiden - Fjellheisen",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:25_260918108725673_6005"
+       }
+      }
+     ]
+    },
+    {
+     "expectedStartTime": "2027-03-06T11:31:02+01:00",
+     "expectedEndTime": "2027-03-06T11:44:00+01:00",
+     "duration": 778,
+     "walkDistance": 211.09,
+     "legs": [
+      {
+       "mode": "foot",
+       "aimedStartTime": "2027-03-06T11:31:02+01:00",
+       "aimedEndTime": "2027-03-06T11:34:00+01:00",
+       "distance": 211.09,
+       "fromPlace": {
+        "name": "Fr. Langes gate"
+       },
+       "toPlace": {
+        "name": "Torgsenteret"
+       },
+       "line": null,
+       "serviceJourney": null
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T11:34:00+01:00",
+       "aimedEndTime": "2027-03-06T11:41:00+01:00",
+       "distance": 2721.0,
+       "fromPlace": {
+        "name": "Torgsenteret"
+       },
+       "toPlace": {
+        "name": "Pyramiden"
+       },
+       "line": {
+        "publicCode": "26",
+        "name": "Tromsø lufthavn-sentrum-Pyramiden",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:26_260918106731027_6023"
+       }
+      },
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-06T11:41:00+01:00",
+       "aimedEndTime": "2027-03-06T11:44:00+01:00",
+       "distance": 1177.0,
+       "fromPlace": {
+        "name": "Pyramiden"
+       },
+       "toPlace": {
+        "name": "Fjellheisen"
+       },
+       "line": {
+        "publicCode": "26",
+        "name": "Tromsø lufthavn-sentrum-Pyramiden",
+        "operator": {
+         "name": "Tide Tromsø"
+        },
+        "authority": {
+         "name": "Svipper"
+        }
+       },
+       "serviceJourney": {
+        "id": "TRO:ServiceJourney:26_260918106949163_6024"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

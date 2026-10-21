@@ -1,0 +1,41 @@
+{
+ "data": {
+  "trip": {
+   "tripPatterns": [
+    {
+     "expectedStartTime": "2027-03-08T20:10:00+01:00",
+     "expectedEndTime": "2027-03-08T21:35:00+01:00",
+     "duration": 5100,
+     "walkDistance": 0.0,
+     "legs": [
+      {
+       "mode": "bus",
+       "aimedStartTime": "2027-03-08T20:10:00+01:00",
+       "aimedEndTime": "2027-03-08T21:35:00+01:00",
+       "distance": 69823.0,
+       "fromPlace": {
+        "name": "Svolvær sentrum Lofotgata"
+       },
+       "toPlace": {
+        "name": "Leknes sentrum"
+       },
+       "line": {
+        "publicCode": "300",
+        "name": "Å-Leknes-Svolvær-Narvik",
+        "operator": {
+         "name": "Boreal Buss AS"
+        },
+        "authority": {
+         "name": "Nordland fylkeskommune"
+        }
+       },
+       "serviceJourney": {
+        "id": "NOR:ServiceJourney:3760_251012124900884_1016"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

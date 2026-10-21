@@ -1,0 +1,1366 @@
+{
+ "data": {
+  "stopPlace": {
+   "name": "Fjellheisen",
+   "estimatedCalls": [
+    {
+     "aimedDepartureTime": "2027-03-06T00:05:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Breivika"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386548_1102",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T00:53:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386589_5500",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T02:20:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386590_5502",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T03:46:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Breivika"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386547_5504",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T05:36:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386606_6000",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T06:06:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386586_6002",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T06:36:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386585_6004",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T07:06:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386415_6006",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T07:36:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386421_6008",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T08:06:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386416_6010",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T08:36:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386422_6012",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T09:06:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386417_6014",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T09:36:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386418_6016",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T10:06:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918106987532_6018",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T10:21:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108721685_6001",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T10:36:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918106989535_6020",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T10:51:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108723673_6003",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T11:06:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918106947159_6022",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T11:21:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108725673_6005",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T11:44:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918106949163_6024",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T11:58:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108731637_6007",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T12:14:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918106951171_6026",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T12:28:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108733625_6009",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T12:44:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918106953177_6028",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T12:58:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108735617_6011",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T13:14:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918106955367_6030",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T13:28:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108737609_6013",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T13:44:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918106957400_6032",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T13:58:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108739600_6015",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T14:14:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918106959408_6034",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T14:28:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108741591_6017",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T14:44:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918106961411_6036",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T14:58:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108743585_6019",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T15:14:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918106963412_6038",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T15:28:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108745573_6021",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T15:44:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918106965414_6040",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T15:58:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108747559_6023",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T16:14:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918106967422_6042",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T16:28:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108749544_6025",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T16:44:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918106969430_6044",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T16:58:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108751532_6027",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T17:14:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386550_6046",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T17:28:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108753518_6029",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T17:44:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386551_6048",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T17:58:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108755508_6031",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T18:14:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386552_6050",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T18:28:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108763475_6033",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T18:44:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386574_6052",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T18:58:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:25_260918108765476_6035",
+      "line": {
+       "publicCode": "26B",
+       "name": "Torgsenteret - Pyramiden - Fjellheisen",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T19:06:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386575_6054",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T19:36:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386576_6056",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T20:06:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386577_6058",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T20:36:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386578_6060",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T21:06:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386579_6062",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T21:36:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386580_6064",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T22:06:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386581_6066",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T22:36:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386582_6068",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T23:06:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386583_6070",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    },
+    {
+     "aimedDepartureTime": "2027-03-06T23:36:00+01:00",
+     "destinationDisplay": {
+      "frontText": "Tromsø lufthavn via sentrum"
+     },
+     "serviceJourney": {
+      "id": "TRO:ServiceJourney:26_260918101386584_6072",
+      "line": {
+       "publicCode": "26",
+       "name": "Tromsø lufthavn-sentrum-Pyramiden",
+       "authority": {
+        "name": "Svipper"
+       },
+       "operator": {
+        "name": "Tide Tromsø"
+       }
+      }
+     },
+     "quay": {
+      "name": "Fjellheisen",
+      "publicCode": ""
+     }
+    }
+   ]
+  }
+ }
+}
