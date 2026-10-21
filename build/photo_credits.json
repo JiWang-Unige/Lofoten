@@ -88,5 +88,35 @@
   "page": "https://commons.wikimedia.org/wiki/File:Telegrafbukta,_Troms%C3%B8_30.jpg",
   "license": "CC BY-SA 4.0",
   "artist": "Sparrow (麻雀)"
+ },
+ "a-lofoten": {
+  "file": "File:Å i Lofoten III (perspective corrected).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%C3%85_i_Lofoten_III_(perspective_corrected).jpg",
+  "license": "CC BY 2.0",
+  "artist": "Jules Henze"
+ },
+ "raftsundet": {
+  "file": "File:MS Nordnorge, Hurtigruten in Raftsundet, Nordland, Norway, 2015 September.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:MS_Nordnorge,_Hurtigruten_in_Raftsundet,_Nordland,_Norway,_2015_September.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Ximonic (Simo Räsänen)"
+ },
+ "reine": {
+  "file": "File:Houses of Reine by Gravdalsbukta, Moskenes, Nordland, Norway, 2022 June.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Houses_of_Reine_by_Gravdalsbukta,_Moskenes,_Nordland,_Norway,_2022_June.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Ximonic (Simo Räsänen)"
+ },
+ "sorvagen": {
+  "file": "File:Sørvågen, Northeast view 20150608 1.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:S%C3%B8rv%C3%A5gen,_Northeast_view_20150608_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "DXR"
+ },
+ "tromso": {
+  "file": "File:Puente de Tromsø, Tromsø, Noruega, 2019-09-04, DD 34.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Puente_de_Troms%C3%B8,_Troms%C3%B8,_Noruega,_2019-09-04,_DD_34.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Diego Delso"
  }
 }
