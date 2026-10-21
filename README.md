@@ -9,7 +9,9 @@
 
 | 路径 | 内容 |
 |---|---|
-| `site/index.html` | 最终行程网页（与 claude.ai 上的私有页面相同）：预订顺序、逐日交通、费用、住宿、风险、与原计划的差异、A/B/C 决策记录 |
+| `site/index.html` | 最终行程网页：每日路线地图（可交互，claude.ai 上自动换成静态图）、带价格的行程表、景点照片卡片、预订顺序、费用、住宿、风险、与原计划的差异、A/B/C 决策记录 |
+| `site/img/` | 景点照片（Wikimedia Commons，作者和许可证见 `build/photo_credits.json` 和网页说明）与静态地图（© OpenStreetMap 贡献者） |
+| `build/build.py` | 生成网页的脚本：行程、价格、景点都写在脚本开头的数据里，改完运行 `python3 build/build.py`（加 `--maps` 重画静态地图，需要 `pip install staticmap`） |
 | `docs/decision-log.md` | 决策记录：日期、路线结构、斯瓦尔巴、付费活动、A 对 C 的取舍 |
 | `docs/research-notes.md` | 各条调研的结论汇总，附来源和核实等级 |
 | `data/original/` | 圆周旅迹原计划 v4（已去除用户 ID、昵称、头像、分享码） |

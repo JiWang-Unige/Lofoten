@@ -1,0 +1,374 @@
+<title>北极圈冬季行程 2027</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;800&family=Noto+Sans+SC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column with a sticky section bar; days as a ledger (time column + legs), like a ship's log. Accent = rorbu red, ink = fjord slate. */
+:root{
+  --bg:#f4f6f7; --surface:#ffffff; --ink:#18232d; --muted:#5b6873; --line:#d7dde2;
+  --accent:#a63a2b; --accent-soft:#f6e4e0; --fjord:#2f5d73; --fjord-soft:#e2edf2;
+  --ok:#2d6a4f; --ok-soft:#e1f0e8; --warn:#9a6b00; --warn-soft:#fbf0d6; --bad:#a1332a; --bad-soft:#f8e1de;
+  --display:"Noto Serif SC","Songti SC",serif; --body:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#10171d; --surface:#172129; --ink:#e6ecef; --muted:#9aa8b2; --line:#2a3943;
+  --accent:#e0816f; --accent-soft:#3a2420; --fjord:#8cc1d8; --fjord-soft:#1d3240;
+  --ok:#7cc9a0; --ok-soft:#1b3328; --warn:#e3b65a; --warn-soft:#3a2f14; --bad:#ef8b80; --bad-soft:#3d201d; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10171d; --surface:#172129; --ink:#e6ecef; --muted:#9aa8b2; --line:#2a3943;
+  --accent:#e0816f; --accent-soft:#3a2420; --fjord:#8cc1d8; --fjord-soft:#1d3240;
+  --ok:#7cc9a0; --ok-soft:#1b3328; --warn:#e3b65a; --warn-soft:#3a2f14; --bad:#ef8b80; --bad-soft:#3d201d; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.7}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:920px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.3;margin:0}
+h1{font-size:clamp(26px,5vw,36px);font-weight:800}
+h2{font-size:22px;font-weight:800;margin-top:48px;padding-bottom:8px;border-bottom:2px solid var(--ink);scroll-margin-top:64px}
+h3{font-size:17px;font-weight:600}
+p{margin:0}
+a{color:var(--fjord)}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
+.lede{margin-top:12px;color:var(--muted);max-width:68ch}
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);margin-top:20px;padding:8px 0;display:flex;gap:6px 14px;flex-wrap:wrap;font-size:13.5px}
+.nav a{text-decoration:none;color:var(--ink);font-weight:500}
+.nav a:hover{color:var(--accent)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin-top:20px}
+.stat{background:var(--surface);padding:12px 14px}
+.stat b{display:block;font-family:var(--mono);font-size:20px;font-variant-numeric:tabular-nums}
+.stat span{font-size:12.5px;color:var(--muted)}
+.note{background:var(--fjord-soft);padding:12px 14px;border-left:3px solid var(--fjord)}
+.chip{display:inline-block;font-size:11.5px;line-height:1.5;padding:0 7px;border-radius:3px;white-space:nowrap;font-weight:500;vertical-align:1px}
+.c-plan{background:var(--fjord-soft);color:var(--fjord)}
+.c-idea{background:var(--line);color:var(--muted)}
+.v-a{background:var(--ok-soft);color:var(--ok)}
+.v-b{background:var(--fjord-soft);color:var(--fjord)}
+.v-c{background:var(--warn-soft);color:var(--warn)}
+.v-x{background:var(--bad-soft);color:var(--bad)}
+.legend{display:flex;flex-wrap:wrap;gap:8px 14px;font-size:13px;color:var(--muted);margin-top:12px}
+.day{display:grid;grid-template-columns:118px 1fr;gap:0 18px;padding:18px 0;border-bottom:1px solid var(--line)}
+.day-h{font-family:var(--mono);font-size:13px;color:var(--muted)}
+.day-h b{display:block;font-family:var(--display);font-size:20px;color:var(--ink);font-weight:800}
+.day-h .where{display:block;margin-top:2px;color:var(--accent);font-family:var(--body);font-weight:700;font-size:13.5px}
+.day-b{min-width:0}
+.day-b h3{margin-bottom:6px}
+.leg{display:grid;grid-template-columns:100px 1fr;gap:0 12px;padding:5px 0}
+.leg .t{font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums;color:var(--fjord);padding-top:1px}
+.leg .d{min-width:0}
+.leg .d small{display:block;color:var(--muted);font-size:13px}
+.sleep{margin-top:8px;font-size:13.5px;padding:6px 10px;background:var(--surface);border:1px solid var(--line)}
+.sleep::before{content:"住 ";font-weight:700;color:var(--accent)}
+ol.book{margin:14px 0 0;padding:0;list-style:none;border:1px solid var(--line);background:var(--surface)}
+ol.book li{display:grid;grid-template-columns:132px 1fr;gap:0 14px;padding:10px 14px;border-bottom:1px solid var(--line)}
+ol.book li:last-child{border-bottom:none}
+ol.book .when{font-family:var(--mono);font-size:12.5px;color:var(--accent);font-weight:500}
+ol.book .what{min-width:0}
+ol.book .what small{display:block;color:var(--muted);font-size:13px}
+.tbl{overflow-x:auto;margin-top:12px;border:1px solid var(--line);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:13.5px;min-width:620px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:500;background:var(--bg)}
+th.col{font-size:13px;color:var(--ink);font-weight:700}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+tr.total td{font-weight:700;background:var(--bg)}
+ul.risks{margin:12px 0 0;padding-left:20px;display:grid;gap:8px}
+details{margin-top:12px;border:1px solid var(--line);background:var(--surface);padding:10px 14px}
+summary{cursor:pointer;font-weight:700}
+details ul{margin:8px 0 0;padding-left:18px;font-size:13.5px}
+.log{margin-top:14px;border-left:2px solid var(--line);padding-left:16px;display:grid}
+.log div{padding:8px 0}
+.log b{font-family:var(--mono);font-size:12.5px;color:var(--muted);font-weight:500;display:block}
+.foot{margin-top:40px;font-size:12.5px;color:var(--muted)}
+@media (max-width:620px){
+  .day{grid-template-columns:1fr;gap:8px}
+  .day-h b{display:inline;margin-right:8px}
+  .leg{grid-template-columns:82px 1fr}
+  ol.book li{grid-template-columns:1fr;gap:2px}
+}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">特罗姆瑟 · 罗弗敦 · 博德 · 奥斯陆 · 2027 年 3 月</p>
+  <h1>北极圈冬季行程：最终方案</h1>
+  <p class="lede">已选定方案 C：<b>03.05 周五 – 03.13 周六，9 天</b>。保留原来的路线结构，修正了每一段衔接和回程。截至 2026-10-21 没有任何预订或付款，所有条目均为「暂定」。A、B、C 三个方案的比较和取舍保留在页面最后的「决策记录」里。</p>
+
+  <div class="stats">
+    <div class="stat"><b>9 天</b><span>周五晚出发，周六 16:00 到家</span></div>
+    <div class="stat"><b>≈ CHF 770</b><span>现金估算（只带小包，不含餐饮）</span></div>
+    <div class="stat"><b>≈ CHF 815</b><span>带 1 件登机箱</span></div>
+    <div class="stat"><b>16,000 分</b><span>Choice 积分，特罗姆瑟 1 晚</span></div>
+  </div>
+
+  <nav class="nav" aria-label="页面目录">
+    <a href="#book">预订顺序</a><a href="#days">逐日行程</a><a href="#cost">费用</a><a href="#stay">住宿</a><a href="#risks">风险</a><a href="#diff">与原计划差异</a><a href="#log">决策记录</a>
+  </nav>
+
+  <h2 id="book">预订顺序</h2>
+  <p class="lede">按"越早越省、越晚越容易满"排序。能免费取消的先订；不能取消的确认后再付。今天是 2026-10-21。</p>
+  <ol class="book">
+    <li><span class="when">1 · 现在</span><span class="what"><b>去程 DY1613</b>：3/5 周五 19:25 日内瓦 → 23:20 特罗姆瑟，直飞。价格一路在涨（约 60 → 72 → 77–80）。要带登机箱就在 norwegian.com 官网订，加购约 CHF 20，合计约 99；或买 LowFare+ 125（含 23 kg 托运和选座）。OTA 的登机箱加购要 38–59。<small><a href="https://www.google.com/travel/flights/booking?tfs=GjwSCjIwMjctMDMtMDUiIAoDR1ZBEgoyMDI3LTAzLTA1GgNUT1MqAkRZMgQxNjEzagUSA0dWQXIFEgNUT1NAAUgBmAEC&curr=CHF&hl=en-GB&gl=CH" target="_blank" rel="noopener">Google Flights 详情页</a></small></span></li>
+    <li><span class="when">2 · 现在</span><span class="what"><b>Choice 积分房</b>：Clarion The Edge，3/5 一晚。登录 choicehotels.com 查积分价（公开报道约 16,000 分）。现金价 NOK 4,263（约 CHF 375），用积分每分值约 CHF 0.023，约是买分成本的 5 倍。码头旁，24 小时前台，含早餐。周六退房后请前台代存行李（待确认）。<small>订不到时的备选：Airbnb 自助入住（14:00–02:00），约 CHF 115，2/28 前可免费取消。<a href="https://www.airbnb.com/rooms/1495617558022989261" target="_blank" rel="noopener">链接</a></small></span></li>
+    <li><span class="when">3 · 现在</span><span class="what"><b>回程 SAS 联程</b>：SK4123 3/12 19:45 博德 → 奥斯陆，SK4631 3/13 13:25 → 16:00 日内瓦，一张票。只带小包：Flysmarter 54（小平台）/ Booking.com 64。带登机箱：Flysmarter 79，或 Trip.com 的 SAS Standard 89（含登机箱和托运）。先在 flysas.com 对比官网价；官网 Light 加登机箱约 €16，需提前 14 天以上。<small><a href="https://www.flysas.com/en/book/flights/?search=OW_BOO-GVA-20270312_a1c0i0y0&view=upsell&bookingFlow=revenue" target="_blank" rel="noopener">flysas.com</a></small></span></li>
+    <li><span class="when">4 · 现在</span><span class="what"><b>Havila 船票</b>：3/7 01:30 特罗姆瑟 → 18:30 斯沃尔韦尔，港到港座位票。已在 6 个月预订窗口内。参考价 NOK 900–1,050，实际价格需要你在官网查一次（自动访问被拦截）。<small><a href="https://www.havilavoyages.com/en/sailing-schedule" target="_blank" rel="noopener">havilavoyages.com</a></small></span></li>
+    <li><span class="when">5 · 现在</span><span class="what"><b>可免费取消的住宿</b>：斯沃尔韦尔 Fast Hotel（约 66，下单前看取消条款）；莱克内斯 Lofoten Overnatting（约 88，3/5 前可免费取消）；雷讷 Moskenes 码头旁 Airbnb（2 晚 115，3/8 前可免费取消）；博德 Smarthotel（约 84）。</span></li>
+    <li><span class="when">6 · 2027 年 2 月中</span><span class="what"><b>复核时刻表</b>：Reis Nordland 通常 2 月 1 日换新时刻表，复核 741/742/743/772/300/200 路；确认 Moskenes 校历（772 路只在上学日运营）；确认 Fjellheisen 冬季营业；查 Svipper 新票价。</span></li>
+    <li><span class="when">7 · 出发前 1 周</span><span class="what">手机装好 Svipper（特罗姆瑟公交）和 Reis（罗弗敦公交）App。决定周六晚要不要报追光团：只报能保证 00:30 前回到 Prostneset 的团，问不到就不报。</span></li>
+    <li><span class="when">8 · 3/10 20:00 前</span><span class="what">可选：渡轮座位保证 NOK 65（步行旅客本身免费）。</span></li>
+    <li><span class="when">9 · 3/10–3/11</span><span class="what">在 BarentsWatch 查 Saltstraumen 48 小时潮流预报，微调 3/12 的出发时间。</span></li>
+  </ol>
+
+  <h2 id="days">逐日行程</h2>
+  <div class="legend">
+    <span><span class="chip v-a">官方 2027</span> 运营方已公布 2027 年 3 月时刻</span>
+    <span><span class="chip v-b">Entur 2027</span> Entur 已有当天数据，2 月复核</span>
+    <span><span class="chip v-c">参考</span> 待官方确认</span>
+    <span><span class="chip v-x">未核实</span> 被拦截或缺数据</span>
+    <span><span class="chip c-plan">暂定</span> 计划采用，未预订</span>
+    <span><span class="chip c-idea">设想</span> 可选</span>
+  </div>
+
+  <div class="day">
+    <div class="day-h"><b>03.05</b>周五<span class="where">日内瓦 → 特罗姆瑟</span></div>
+    <div class="day-b">
+      <h3>直飞进北极圈</h3>
+      <div class="leg"><span class="t">19:25–23:20</span><span class="d">Norwegian DY1613 GVA→TOS 直飞 <span class="chip c-plan">暂定</span></span></div>
+      <div class="leg"><span class="t">23:34–23:49</span><span class="d">机场 → 市区：26 路 23:34、40 路 23:40、24 路 23:43、42 路 23:49，约 15–20 分钟，NOK 30–50（App 购票）<span class="chip v-b">Entur 2027</span><small>机场夜里关门，不能在机场过夜</small></span></div>
+      <p class="sleep">Clarion The Edge，积分约 16,000 分，24 小时前台，含早餐 <span class="chip c-plan">暂定</span> <span class="chip v-x">积分价未核实</span></p>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="day-h"><b>03.06</b>周六<span class="where">特罗姆瑟 → 船上</span></div>
+    <div class="day-b">
+      <h3>Sommarøy 海岛、Ersfjordbotn 峡湾、夜里登船</h3>
+      <div class="leg"><span class="t">09:00 → 10:11</span><span class="d">422 路 Prostneset → Sommarøy（周末滑雪季线路，3/1–5/1）<span class="chip v-b">Entur 2027</span></span></div>
+      <div class="leg"><span class="t">12:34 → 14:07</span><span class="d">422 路回城（下一班 14:34 → 16:07）。退房，行李交给酒店前台或码头储物柜</span></div>
+      <div class="leg"><span class="t">14:50 → 15:39</span><span class="d">42 路 Bankgata 出发，在 Eidkjosen 换车到 Ersfjordbotn <span class="chip v-b">Entur 2027</span></span></div>
+      <div class="leg"><span class="t">15:39–18:48</span><span class="d">峡湾日落（约 16:50）和蓝调，天黑后开始等极光</span></div>
+      <div class="leg"><span class="t">18:48 → 19:43</span><span class="d">回城（周六末班）</span></div>
+      <div class="leg"><span class="t">20:00–23:00</span><span class="d">二选一：Fjellheisen 缆车看夜景和极光（往返 NOK 645，开到 00:00 <span class="chip v-c">冬季营业待确认</span>）；或者去 Telegrafbukta / Prestvannet 免费看 <span class="chip c-idea">设想</span><small>想报追光团就放弃缆车，而且只报 00:30 前回城的团</small></span></div>
+      <div class="leg"><span class="t">23:45–01:15</span><span class="d">Havila Capella 23:45 靠港办理登船，01:15 截止（Prostneset，Samuel Arnesens gt. 5）<span class="chip v-a">官方 2027</span></span></div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="day-h"><b>03.07</b>周日<span class="where">海岸航行 → 斯沃尔韦尔</span></div>
+    <div class="day-b">
+      <h3>Havila 南下，下午过 Raftsundet</h3>
+      <div class="leg"><span class="t">01:30 → 18:30</span><span class="d">Havila 特罗姆瑟 → 斯沃尔韦尔（Harstad 08:00、Sortland 12:30、Stokmarknes 14:15–15:15）<span class="chip c-plan">暂定</span> <span class="chip v-a">官方 2027</span><small>港到港座位票，价格 <span class="chip v-x">未核实</span>；船上不含餐食，自带补给</small></span></div>
+      <div class="leg"><span class="t">15:00–18:30</span><span class="d">待在甲板：Raftsundet 是全程最好看的一段</span></div>
+      <div class="leg"><span class="t">晚上</span><span class="d">码头步行到住处；港口看极光</span></div>
+      <p class="sleep">Fast Hotel Svolvær，约 CHF 66（Trip.com）/ 88（Booking），不含早餐 <span class="chip c-plan">暂定</span></p>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="day-h"><b>03.08</b>周一<span class="where">斯沃尔韦尔 → 莱克内斯</span></div>
+    <div class="day-b">
+      <h3>亨宁斯韦尔渔村，傍晚跨岛</h3>
+      <div class="leg"><span class="t">08:30–10:20</span><span class="d">港口、Svinøya 红木屋，退房</span></div>
+      <div class="leg"><span class="t">10:30 → 11:11</span><span class="d">743 路 Lofotgata → 亨宁斯韦尔 <span class="chip v-b">Entur 2027</span></span></div>
+      <div class="leg"><span class="t">14:21 → 14:57</span><span class="d">743 路返回斯沃尔韦尔（每个工作日都有）</span></div>
+      <div class="leg"><span class="t">15:45 → 17:10</span><span class="d">741 路 → 莱克内斯 <span class="chip v-b">Entur 2027</span><small>错过就坐 300 路 20:10，21:35 到</small></span></div>
+      <p class="sleep">Lofoten Overnatting，约 CHF 88，3/5 前可免费取消 <span class="chip c-plan">暂定</span></p>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="day-h"><b>03.09</b>周二<span class="where">莱克内斯 → 雷讷</span></div>
+    <div class="day-b">
+      <h3>Ramberg 海滩、Hamnøy、雷讷</h3>
+      <div class="leg"><span class="t">08:40 → 09:22</span><span class="d">742 路 → Ramberg（也可 10:40 → 11:15）<span class="chip v-b">Entur 2027</span></span></div>
+      <div class="leg"><span class="t">13:20 → 13:45</span><span class="d">742 路 Ramberg → Hamnøy；桥上拍红屋、雪山和海</span></div>
+      <div class="leg"><span class="t">14:45 → 14:55</span><span class="d">772 路 → 雷讷 / Moskenes 住处 <span class="chip v-c">上学日线路</span><small>不开时坐 300 路 16:50 → 17:02</small></span></div>
+      <p class="sleep">Moskenes 码头旁 Airbnb 单间 2 晚，CHF 115，3/8 前可免费取消；门口有车站，周四可步行去码头 <span class="chip c-plan">暂定</span></p>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="day-h"><b>03.10</b>周三<span class="where">雷讷</span></div>
+    <div class="day-b">
+      <h3>雷讷群岛摄影</h3>
+      <div class="leg"><span class="t">07:00–11:30</span><span class="d">Reinehalsen 观景台晨光（日出约 06:50）、港口、晾鱼架</span></div>
+      <div class="leg"><span class="t">13:35 → 13:41</span><span class="d">772 路雷讷 → Olenilsøya；Sakrisøy 黄房子在 400 m 外 <span class="chip v-c">上学日线路</span></span></div>
+      <div class="leg"><span class="t">14:47 → 14:55</span><span class="d">772 路返回（742 路 13:48、16:53 也可以）<small>步行单程约 4.4 km，沿 E10，路肩窄，不建议</small></span></div>
+      <div class="leg"><span class="t">晚上</span><span class="d">雷讷周边看极光，不用跨村</span></div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="day-h"><b>03.11</b>周四<span class="where">Å → 夜渡博德</span></div>
+    <div class="day-b">
+      <h3>奥镇、索尔沃根，晚上的船</h3>
+      <div class="leg"><span class="t">09:57 → 10:27</span><span class="d">742 路雷讷 → Å <span class="chip v-b">Entur 2027</span></span></div>
+      <div class="leg"><span class="t">10:30–12:15</span><span class="d">挪威渔村博物馆（学生约 NOK 100，可选）、鳕鱼干架、Å 观景点</span></div>
+      <div class="leg"><span class="t">12:20 → 12:26</span><span class="d">772 路 → Sørvågen（或步行 2.9 km）；Tind 海湾，下午回住处取行李</span></div>
+      <div class="leg"><span class="t">19:00 → 19:30</span><span class="d"><b>步行</b>到 Moskenes 码头（从 Sørvågen 2.2 km）。唯一的晚班车 20:10 才到，赶不上 19:45 截止</span></div>
+      <div class="leg"><span class="t">20:30 → 23:45</span><span class="d">Torghatten 18-782 → 博德，步行旅客免费，开船前 45 分钟扫码登记 <span class="chip v-a">官方 2027</span><small>夜里在甲板上也可能看到极光</small></span></div>
+      <div class="leg"><span class="t">23:45 → 00:00</span><span class="d">步行约 1 km 到酒店（这个时间没有公交）</span></div>
+      <p class="sleep">Smarthotel Bodø，24 小时前台，含早餐，约 CHF 84 <span class="chip c-plan">暂定</span></p>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="day-h"><b>03.12</b>周五<span class="where">博德 → 奥斯陆</span></div>
+    <div class="day-b">
+      <h3>按潮汐排的 Saltstraumen</h3>
+      <div class="leg"><span class="t">上午</span><span class="d">港口散步（免费），或挪威航空博物馆（学生约 NOK 160，可选）</span></div>
+      <div class="leg"><span class="t">12:32 → 13:10</span><span class="d">200 路 → Saltstraumen <span class="chip v-a">官方 PDF</span></span></div>
+      <div class="leg"><span class="t">13:10–14:10</span><span class="d">入流最强约 13:00–13:45（Kartverket 博德高潮 14:43，按"潮后约 1 h 40 min 转流"推算）<span class="chip v-c">BarentsWatch 提前 48 h 复核</span></span></div>
+      <div class="leg"><span class="t">14:10 / 14:53</span><span class="d">回博德，酒店取行李；1/2 路约 6 分钟到机场</span></div>
+      <div class="leg"><span class="t">19:45 → 21:20</span><span class="d">SAS SK4123 → 奥斯陆（与次日 SK4631 是同一张联程票）<span class="chip c-plan">暂定</span></span></div>
+      <p class="sleep">奥斯陆机场过夜：Avinor 写明 24 小时开放，Oslo Food Hub 全天营业。备选 Comfort Grand Central，现金 CHF 118–150</p>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="day-h"><b>03.13</b>周六<span class="where">奥斯陆 → 日内瓦</span></div>
+    <div class="day-b">
+      <h3>奥斯陆半天</h3>
+      <div class="leg"><span class="t">08:00–12:00</span><span class="d">Vy 火车进城约 20 分钟（约 NOK 134 <span class="chip v-c">参考</span>）；歌剧院屋顶、阿克什胡斯城堡（免费）</span></div>
+      <div class="leg"><span class="t">13:25 → 16:00</span><span class="d">SAS SK4631 → 日内瓦直飞（联程第二段，必须按时登机）</span></div>
+    </div>
+  </div>
+
+  <h2 id="cost">费用（CHF，单人，不含餐饮）</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>项目</th><th>只带小包</th><th>带 1 件登机箱</th><th>说明</th></tr></thead>
+    <tbody>
+      <tr><td>机票</td><td class="num">131</td><td class="num">178</td><td>DY1613 77–80（官网加登机箱 99）+ SAS 联程 54（加登机箱 79）</td></tr>
+      <tr><td>特罗姆瑟 1 晚</td><td class="num">0</td><td class="num">0</td><td>16,000 积分；订不到则 Airbnb 约 115</td></tr>
+      <tr><td>Havila 船票</td><td class="num">≈ 85</td><td class="num">≈ 85</td><td>未核实</td></tr>
+      <tr><td>罗弗敦住宿</td><td class="num">269</td><td class="num">269</td><td>66 + 88 + 115</td></tr>
+      <tr><td>博德住宿</td><td class="num">84</td><td class="num">84</td><td>含早餐</td></tr>
+      <tr><td>奥斯陆机场火车</td><td class="num">24</td><td class="num">24</td><td>往返</td></tr>
+      <tr><td>市内公交、寄存</td><td class="num">117</td><td class="num">117</td><td>罗弗敦约 9 段约 70；特罗姆瑟约 15；博德约 20；寄存约 9</td></tr>
+      <tr><td>缆车</td><td class="num">57</td><td class="num">57</td><td>NOK 645；改去免费点则为 0</td></tr>
+      <tr class="total"><td>合计</td><td class="num">≈ 770</td><td class="num">≈ 815</td><td>可选门票另计 10–30；有条件的追光团另计约 96–140</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2 id="stay">住宿</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>晚</th><th>首选</th><th>价格</th><th>备选</th><th>链接</th></tr></thead>
+    <tbody>
+      <tr><td>03.05 特罗姆瑟</td><td>Clarion The Edge（积分）</td><td class="num">约 16k 分；现金约 375</td><td>Airbnb 自助入住 106–115</td><td><a href="https://www.google.com/travel/hotels/entity/ChkIsImBy4Cct7LcARoML2cvMTJocnpqZDF4EAE/prices?curr=CHF&hl=en-GB&gl=ch" target="_blank" rel="noopener">比价</a> · <a href="https://www.airbnb.com/rooms/1495617558022989261" target="_blank" rel="noopener">Airbnb</a> · <a href="https://www.airbnb.com/rooms/22705613" target="_blank" rel="noopener">Airbnb 2</a></td></tr>
+      <tr><td>03.06 船上</td><td>Havila 座位票</td><td class="num">≈ 85</td><td>—</td><td><a href="https://www.havilavoyages.com/en/sailing-schedule" target="_blank" rel="noopener">Havila</a></td></tr>
+      <tr><td>03.07 斯沃尔韦尔</td><td>Fast Hotel Svolvær</td><td class="num">66 / 88</td><td>Marina Hotel 100（含早）</td><td><a href="https://www.google.com/travel/hotels/entity/ChkIo5XfnaiTqMwLGg0vZy8xMWc2OWdwNnR3EAE/prices?curr=CHF&hl=en-GB&gl=ch" target="_blank" rel="noopener">比价</a></td></tr>
+      <tr><td>03.08 莱克内斯</td><td>Lofoten Overnatting</td><td class="num">88</td><td>FURU 青旅床位 27（离莱克内斯 15 km）</td><td><a href="https://www.google.com/travel/hotels/entity/ChkI7v6e3uH9svRZGg0vZy8xMWMzZGp2c2NuEAE/prices?curr=CHF&hl=en-GB&gl=ch" target="_blank" rel="noopener">比价</a></td></tr>
+      <tr><td>03.09–03.10 雷讷一带</td><td>Moskenes 码头旁 Airbnb</td><td class="num">115（2 晚）</td><td>Rostad Retro Rorbuer 约 78（2 晚，房型未确认）</td><td><a href="https://www.airbnb.com/rooms/654428235393801286" target="_blank" rel="noopener">Airbnb</a> · <a href="https://www.google.com/travel/hotels/entity/ChkI6Mn8v4HM0fVqGg0vZy8xMWtnYjg5ZGJsEAE/prices?curr=CHF&hl=en-GB&gl=ch" target="_blank" rel="noopener">Rostad</a></td></tr>
+      <tr><td>03.11 博德</td><td>Smarthotel Bodø</td><td class="num">84–94</td><td>Comfort Hotel Bodø 116–120</td><td><a href="https://www.google.com/travel/hotels/entity/ChoI7dXzopHg6oL_ARoNL2cvMTFwY2toanNmbRAB/prices?curr=CHF&hl=en-GB&gl=ch" target="_blank" rel="noopener">比价</a></td></tr>
+      <tr><td>03.12 奥斯陆</td><td>机场过夜</td><td class="num">0</td><td>Comfort Grand Central 118–150</td><td><a href="https://avinor.no/en/airport/oslo/about-oslo-airport/Contact-information/" target="_blank" rel="noopener">Avinor</a></td></tr>
+    </tbody>
+  </table></div>
+
+  <h2 id="risks">仍未解决的风险</h2>
+  <ul class="risks">
+    <li><b>极光：</b>约 7 个可看的夜晚，按气候粗算看到的机会约 65–75%（个人估算，阴天常连续几天）。缓解办法：周六有条件地报一次追光团。</li>
+    <li><b>周六追光团与登船冲突：</b>大巴团写明 23:00–02:00 之间回城，登船 01:15 截止。下单前一定问清回程时间。</li>
+    <li><b>积分房：</b>积分价未核实；订不到时 Airbnb 约 +115。</li>
+    <li><b>Havila 票价：</b>需人工查一次。</li>
+    <li><b>SAS 联程：</b>价格来自 OTA，官网未核实。中途进奥斯陆城没问题，但第二段误机会被当作缺席处理。</li>
+    <li><b>罗弗敦公交：</b>2 月可能改时刻表；772 路只在上学日运营。</li>
+    <li><b>周四夜船遇风停航：</b>周五 08:00 那班 11:15 到博德，Saltstraumen 和 19:45 的航班都赶得上。</li>
+    <li><b>积雪：</b>罗弗敦海边近年 3 月初有雪约 60–70%；300 m 以上的山几乎都是白的。</li>
+    <li><b>缆车冬季营业：</b>未核实，出发前看 fjellheisen.no。</li>
+  </ul>
+
+  <h2 id="diff">与原计划的差异（原值 → 新值）</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>项目</th><th>原值</th><th>新值</th><th>理由</th></tr></thead>
+    <tbody>
+      <tr><td>去程</td><td>DY1613，以为经奥斯陆，约 CHF 70</td><td>DY1613 周五 19:25 直飞，23:20 到</td><td>DY1613 是直飞</td></tr>
+      <tr><td>特罗姆瑟住宿</td><td>青旅/便宜单人房，确认午夜后可入住</td><td>Clarion The Edge 积分 1 晚</td><td>积分在这里每分值约 CHF 0.023；码头旁，24 小时前台</td></tr>
+      <tr><td>周六上午</td><td>市中心、北极教堂、11:15 缆车</td><td>Sommarøy 海岛（422 路）</td><td>周六去 Sommarøy 可以当天往返</td></tr>
+      <tr><td>Ersfjordbotn</td><td>13:00–16:00 坐 425 路</td><td>14:50 → 15:39，18:48 回</td><td>周六市区没有直达车，13:00 前后没有班次</td></tr>
+      <tr><td>缆车</td><td>11:15–12:30，NOK 595</td><td>晚上看夜景和极光，NOK 645（现价），或去免费点</td><td>白天时间给了 Sommarøy 和峡湾</td></tr>
+      <tr><td>极光</td><td>自行追光或参团，23:45 前返港</td><td>自己看为主；报团只选 00:30 前回城的团</td><td>登船截止实际是 01:15；大巴团可能 02:00 才回</td></tr>
+      <tr><td>Bus 743</td><td>参考返程班次</td><td>10:30 去 / 14:21 回，741 15:45 → 17:10</td><td>按 Entur 2027 核实</td></tr>
+      <tr><td>Hamnøy → 雷讷</td><td>772 参考车次</td><td>772 14:45（上学日），备选 300 16:50</td><td>772 只在上学日运营</td></tr>
+      <tr><td>Olenilsøya</td><td>772 下午小循环</td><td>13:35 / 14:47；步行 4.4 km</td><td>按 Entur 修正</td></tr>
+      <tr><td>雷讷 → Å</td><td>09:30</td><td>742 09:57</td><td>09:30 没有车</td></tr>
+      <tr><td>去渡轮</td><td>742/772 接渡轮需核实</td><td>步行 2.2 km，19:45 前到</td><td>唯一晚班车晚于登记截止</td></tr>
+      <tr><td>Saltstraumen</td><td>09:00–12:00</td><td>13:10–14:10</td><td>原时段正好是平潮</td></tr>
+      <tr><td>博德下午</td><td>16:00–19:45 去机场（回程未定）</td><td>SAS 19:45 → 奥斯陆过夜</td><td>周五傍晚从博德当天到不了日内瓦</td></tr>
+      <tr><td>03.13</td><td>空白</td><td>奥斯陆半天，13:25 飞日内瓦</td><td>联程票最便宜，还多出半天</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2 id="log">决策记录</h2>
+  <p class="lede">保留主要比较和取舍，方便以后回头查看。数字都是 2026-10-21 查到的。</p>
+  <div class="log">
+    <div><b>日期</b>比较了 3 月初和 2 月底：3/8 新月，整段无月光；2/20 满月。强厄尔尼诺对罗弗敦积雪影响小，两段积雪概率相当。结论：保留 3 月初，不往后延（3/13 起月亮整夜挂着）。</div>
+    <div><b>路线结构</b>比较了三个方案（见下表）。直接从罗弗敦飞回（单程 385–492，常需过夜）、异地还车（NOK 8,711）、周四经奥斯陆出发（CHF 162）都被排除。</div>
+    <div><b>斯瓦尔巴</b>无团 3 晚约 CHF 505；带狗拉雪橇、摩托追极光、种子库约 CHF 1,000；海冰游船最早 4/15 才开。结论：不去。这些体验在特罗姆瑟或罗瓦涅米也有，钱留给非洲、马丘比丘或南极。</div>
+    <div><b>付费活动</b>狗拉雪橇、驯鹿、追光团都不默认参加；缆车保留。</div>
+    <div><b>A 对 C</b>两者现金几乎一样；A 多用 48,000 积分（按买分成本约 CHF 235）和 3 天假，看到极光的概率粗估从 65–75% 提到 75–85%。一次追光团（约 CHF 96–140）性价比更高，所以选 C。</div>
+  </div>
+
+  <div class="tbl"><table>
+    <thead><tr><th>维度</th><th class="col">A 南线</th><th class="col">B 东线</th><th class="col">C 紧凑（已选）</th></tr></thead>
+    <tbody>
+      <tr><td>日期</td><td>03.02–03.13，12 天</td><td>03.02–03.14，13 天</td><td>03.05–03.13，9 天</td></tr>
+      <tr><td>现金（只带小包）</td><td class="num">≈ 780</td><td class="num">≈ 925</td><td class="num">≈ 770</td></tr>
+      <tr><td>积分</td><td class="num">64,000</td><td class="num">64,000</td><td class="num">16,000</td></tr>
+      <tr><td>不用积分</td><td class="num">≈ 1,220</td><td class="num">≈ 1,365</td><td class="num">≈ 885</td></tr>
+      <tr><td>可看极光的夜晚</td><td class="num">约 10</td><td class="num">约 11</td><td class="num">约 7</td></tr>
+      <tr><td>特点</td><td>周二直飞 CHF 67；特罗姆瑟 4 晚，最暗的 3/2–3/4；越野滑雪大师赛期间酒店紧张</td><td>罗弗敦 → 纳尔维克 → Abisko 两晚 → SJ 卧铺 → 斯德哥尔摩，周日 SWISS 回；纳尔维克每天一班火车</td><td>原结构，修正所有衔接</td></tr>
+      <tr><td>原计划补全后</td><td colspan="3" class="num">≈ 1,060–1,100（原机票约 210 + 奥斯陆酒店约 120 + 特罗姆瑟 1 晚约 110）</td></tr>
+    </tbody>
+  </table></div>
+
+  <details>
+    <summary>方案 A 逐日要点（未选）</summary>
+    <ul>
+      <li>03.02 周二：DY1613 17:45 → 21:40 直飞，CHF 67。特罗姆瑟 4 晚用积分。</li>
+      <li>03.03 周三：城区；缆车看日落和极光。</li>
+      <li>03.04 周四：425 路 14:05 → Ersfjordbotn，末班 20:48 回。</li>
+      <li>03.05 周五：天气备份日。</li>
+      <li>03.06 周六：Sommarøy；夜里登 Havila。</li>
+      <li>03.07–03.13：与 C 完全相同。</li>
+      <li>可选模块：罗弗敦租车（Avis 莱克内斯原地租还 NOK 2,850）；特罗姆瑟付费亮点（狗拉雪橇学生 NOK 2,650、驯鹿 NOK 990–1,290）。</li>
+    </ul>
+  </details>
+  <details>
+    <summary>方案 B 逐日要点（未选）</summary>
+    <ul>
+      <li>03.02–03.09：与 A 相同。</li>
+      <li>03.10 周三：雷讷 + Å + Sørvågen 并为一天。</li>
+      <li>03.11 周四：300 路雷讷 06:45 → 纳尔维克 13:40；SJ 93 次 14:48 → Abisko 16:37（SEK 75）。错过时有 950 路巴士 18:36。</li>
+      <li>03.12 周五：Abisko 国家公园；可选 Aurora Sky Station SEK 1,295。</li>
+      <li>03.13 周六：16:37 SJ 卧铺 → 阿兰达（次日 09:50），6 人卧铺 SEK 1,337。</li>
+      <li>03.14 周日：斯德哥尔摩半天；SWISS 16:35 → 19:20 日内瓦（Basic 81–95，Light 104）。</li>
+    </ul>
+  </details>
+  <details>
+    <summary>斯瓦尔巴模块（未选）</summary>
+    <ul>
+      <li>机票：周三 TOS 06:10 经奥斯陆 → LYR 15:10，周六 SK4425 14:55 → TOS 16:35，组合约 CHF 281；2 晚版周四 SAS 往返直飞约 CHF 375。</li>
+      <li>住宿：Gjestehuset 102 床位 3 晚 CHF 188 / 单人间 375。</li>
+      <li>狗拉雪橇 NOK 2,590–2,690；摩托追极光驾驶 NOK 2,750–2,900；种子库只能看外观，观光车 NOK 445；海冰游船最早 4/15。</li>
+      <li>护照 + 瑞士居留卡；离开镇区必须跟持枪向导；3 月平均约 −12 °C。</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>主要来源</summary>
+    <ul>
+      <li>班次：Entur Journey Planner v3（api.entur.io）；Svipper 422/425 PDF；Reis Nordland 741/742/743/772/300/200 PDF</li>
+      <li>渡轮：<a href="https://www.torghatten.no/en/our-routes/18-782" target="_blank" rel="noopener">Torghatten 18-782 冬季时刻表（07.09.26–16.05.27）</a></li>
+      <li>海岸游轮：<a href="https://www.havilavoyages.com/en/sailing-schedule" target="_blank" rel="noopener">Havila 2027 航程表</a></li>
+      <li>潮汐：<a href="https://vannstand.kartverket.no/tideapi.php?lat=67.288&lon=14.402&fromtime=2027-03-11T00:00&totime=2027-03-14T00:00&datatype=tab&refcode=cd&tide_request=locationdata" target="_blank" rel="noopener">Kartverket 博德潮汐</a>；<a href="https://www.barentswatch.no/en/articles/strait-talk-for-a-safe-passage/" target="_blank" rel="noopener">BarentsWatch</a></li>
+      <li>月相与日照：api.met.no；USNO。气候：NOAA CPC（2026-10-08）、NVE/MET seNorge、MET info 月报</li>
+      <li>机场：<a href="https://www.avinor.no/en/airport/Tromso/about-tromso-airport/contact-information/" target="_blank" rel="noopener">Avinor 特罗姆瑟</a>；<a href="https://avinor.no/en/airport/oslo/about-oslo-airport/Contact-information/" target="_blank" rel="noopener">Avinor 奥斯陆</a></li>
+      <li>行李：<a href="https://www.norwegian.com/en/booking/helpful-booking-info/optional-service-charges/" target="_blank" rel="noopener">Norwegian 附加服务价格</a>；<a href="https://www.flysas.com/us-en/legal-info/optional-services-fees" target="_blank" rel="noopener">SAS 附加费用</a></li>
+      <li>冬季徒步安全：<a href="https://www.visittromso.no/no/winter-hiking-in-tromso" target="_blank" rel="noopener">Visit Tromsø</a></li>
+      <li>价格：Google Flights、Kayak.ch、momondo、Google Hotels、Airbnb、strawberry.no、各运营商预订系统（均查于 2026-10-21）</li>
+    </ul>
+  </details>
+
+  <p class="foot">查于 2026-10-21。没有任何预订或付款。原版本（圆周旅迹 v4）已存档，供对照。</p>
+</div>
