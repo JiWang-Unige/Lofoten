@@ -117,7 +117,7 @@ DAYS = [
    dict(t='—', what='Moskenes 码头旁 Airbnb（第 1 晚）', cost=57.5, note='2 晚 115，3/8 前可免费取消', v='plan'),
    dict(t='—', what='餐饮', cost=25, note='', v=''),
   ], sleep='Moskenes 码头旁 Airbnb 单间'),
- dict(id='0310', date='03.10', wd='周三', where='雷讷', title='雷讷群岛摄影', legs=['olenilsoy-out','olenilsoy-back'], pois=['reine','sakrisoy','stockfish'],
+ dict(id='0310', date='03.10', wd='周三', where='雷讷', title='雷讷群岛摄影', legs=['olenilsoy-out','olenilsoy-back'], pois=['reine','sakrisoy'],
   items=[
    dict(t='07:00–11:30', what='Reinehalsen 晨光（日出约 06:50）、港口、晾鱼架', cost=None, note='', v=''),
    dict(t='13:35 → 13:41', what='772 路 → Olenilsøya，走 400 m 到 Sakrisøy', cost=nok(45), note='上学日线路', v='c'),
