@@ -40,8 +40,30 @@ POIS = {
   'bodo':            dict(name='博德', local='Bodø', ll=(67.2804, 14.4049), desc='北挪威的港口城市，2024 年欧洲文化之都。'),
   'luftfartsmuseum': dict(name='挪威航空博物馆', local='Norsk Luftfartsmuseum', ll=(67.2763, 14.4180), desc='螺旋桨造型的大馆，民航和军用飞机，包括 U-2 和喷火式。'),
   'saltstraumen':    dict(name='Saltstraumen 潮流', local='Saltstraumen', ll=(67.2310, 14.6220), desc='世界最强的潮汐流之一，入流最强时海面出现漩涡；看潮汐表决定时间。'),
-  'oslo-opera':      dict(name='奥斯陆歌剧院', local='Operahuset', ll=(59.9075, 10.7531), desc='可以走上斜屋顶看峡湾和城市，免费。'),
+  'oslo-opera':      dict(name='奥斯陆歌剧院', local='Operahuset', ll=(59.9075, 10.7531), desc='斜屋顶可以走上去看峡湾和城市，免费；冬季可能因冰雪部分封闭。'),
   'akershus':        dict(name='阿克什胡斯城堡', local='Akershus festning', ll=(59.9076, 10.7363), desc='中世纪城堡，城墙上看奥斯陆峡湾，免费进入。'),
+}
+
+
+# official / tourist-board pages: linked, never copied (their photos are copyrighted)
+OFFICIAL = {
+  'tromso': ('Visit Tromsø', 'https://www.visittromso.no/'),
+  'arctic-cathedral': ('Visit Tromsø', 'https://www.visittromso.no/travel/getting-around/sights'),
+  'fjellheisen': ('Fjellheisen 官网', 'https://www.fjellheisen.no/engelsk/fjellheisen-home'),
+  'havila': ('Havila 官网', 'https://www.havilavoyages.com/en/sailing-schedule'),
+  'raftsundet': ('Visit Norway', 'https://www.visitnorway.no/listings/trollfjord/227089/'),
+  'svolvaer': ('Visit Lofoten', 'https://visitlofoten.com/en/'),
+  'henningsvaer': ('Visit Lofoten', 'https://visitlofoten.com/en/'),
+  'reine': ('Visit Lofoten', 'https://visitlofoten.com/en/place/reine/'),
+  'a-lofoten': ('Visit Lofoten', 'https://visitlofoten.com/en/place/a/'),
+  'fiskevaer-museum': ('Nordnorge 官方旅游', 'https://nordnorge.com/en/aktivitet/the-norwegian-fishing-village-museum-in-a-brings-the-past-to-life/'),
+  'sorvagen': ('Visit Lofoten', 'https://visitlofoten.com/en/place/sorvagen/'),
+  'moskenes-ferry': ('Torghatten 官网', 'https://www.torghatten.no/en/our-routes/18-782'),
+  'bodo': ('Visit Bodø', 'https://visitbodo.com/en/'),
+  'luftfartsmuseum': ('航空博物馆官网', 'https://www.luftfartsmuseum.no/billetter-og-booking'),
+  'saltstraumen': ('Visit Bodø', 'https://visitbodo.com/en/saltstraumen'),
+  'oslo-opera': ('Visit Norway', 'https://www.visitnorway.com/places-to-go/eastern-norway/oslo/oslo-opera-house'),
+  'akershus': ('Forsvarsbygg 官网', 'https://www.forsvarsbygg.no/en/festningene/akershus-fortress'),
 }
 
 def maps_url(k):
@@ -128,7 +150,7 @@ DAYS = [
  dict(id='0313', date='03.13', wd='周六', where='奥斯陆 → 日内瓦', title='奥斯陆半天', legs=['oslo-in','oslo-out'], pois=['oslo-opera','akershus'],
   items=[
    dict(t='08:03 → 08:26', what='Vy 火车 机场 → Oslo S', cost=nok(134), note='无学生折扣；Flytoget 学生价 138 也可以', v='b'),
-   dict(t='08:30–11:30', what='歌剧院屋顶、阿克什胡斯城堡（免费）', cost=None, note='', v=''),
+   dict(t='08:30–11:30', what='歌剧院、阿克什胡斯城堡（免费）', cost=None, note='冬季歌剧院屋顶可能因冰雪部分封闭，待确认；城堡冬季 06:00–21:00 开放', v='c'),
    dict(t='11:34 → 11:57', what='Vy 火车回机场', cost=nok(134), note='', v='b'),
    dict(t='13:25 → 16:00', what='SAS SK4631 奥斯陆 → 日内瓦（联程第二段）', cost=0, note='已含在前一天的 54 里', v='plan'),
    dict(t='—', what='餐饮', cost=22, note='', v=''),
@@ -204,7 +226,7 @@ def render_day(d):
         if has_photo(k):
             img = f'<img src="img/poi/{k}.jpg" alt="{E(p["name"])}" loading="lazy">'
         else:
-            img = '<span class="ph" aria-hidden="true"></span>'
+            img = '<span class="ph"><span>点开看官网照片</span></span>'
         tiles.append(f'<button class="tile" type="button" data-poi="{k}">{img}<span class="cap">{E(p["name"])}</span></button>')
     optline = f'；可选另计 {opt:,.0f}' if opt else ''
     return f'''
@@ -240,7 +262,7 @@ def main():
     cat_rows = ''.join(f'<tr><td>{k}</td><td class="num">{v:,.0f}</td></tr>' for k, v in cat.items())
     day_rows = ''.join(f'<tr><td><a href="#d{d["id"]}">{d["date"]} {d["wd"]}</a></td><td>{E(d["where"])}</td><td class="num">{d["_sub"]:,.0f}</td></tr>' for d in DAYS)
     poi_js = {k: dict(n=v['name'], l=v['local'], ll=v['ll'], d=v['desc'], m=maps_url(k), ph=has_photo(k),
-                      cr=credits.get(k)) for k, v in POIS.items()}
+                      cr=credits.get(k), of=OFFICIAL.get(k)) for k, v in POIS.items()}
     day_js = {d['id']: dict(legs=[LEGS[l] for l in d['legs'] if l in LEGS], pois=d['pois']) for d in DAYS}
 
     page = head.replace('<title>北极圈冬季行程 2027</title>', '<title>北极圈冬季行程 2027</title>')
@@ -300,7 +322,7 @@ def main():
   <div class="lb-img"></div>
   <div class="lb-body">
     <h3 id="lb-title"></h3><p class="lb-local"></p><p class="lb-desc"></p>
-    <p class="lb-links"><a class="lb-map" target="_blank" rel="noopener">在 Google 地图打开</a> · <a class="lb-search" target="_blank" rel="noopener">更多照片</a></p>
+    <p class="lb-links"><a class="lb-off" target="_blank" rel="noopener"></a><a class="lb-map" target="_blank" rel="noopener">Google 地图（含游客照片）</a></p>
     <p class="lb-credit"></p>
   </div>
 </dialog>
@@ -364,7 +386,7 @@ tfoot td{font-weight:700;background:var(--bg)}
 .tile{all:unset;cursor:pointer;display:grid;background:var(--surface);border:1px solid var(--line)}
 .tile:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .tile img,.tile .ph{width:100%;aspect-ratio:3/2;object-fit:cover;display:block;max-width:100%}
-.tile .ph{background:linear-gradient(135deg,var(--fjord-soft),var(--accent-soft))}
+.tile .ph{background:linear-gradient(135deg,var(--fjord-soft),var(--accent-soft));display:grid;place-items:center;font-size:12.5px;color:var(--fjord)}
 .tile .cap{font-size:13px;padding:6px 8px;font-weight:500}
 .tile:hover .cap{color:var(--accent)}
 .cost-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
@@ -376,6 +398,8 @@ dialog#lb::backdrop{background:rgba(10,16,22,.72)}
 .lb-body{padding:14px 18px 18px;display:grid;gap:6px}
 .lb-local{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
 .lb-credit{font-size:12px;color:var(--muted)}
+.lb-links{display:flex;flex-wrap:wrap;gap:6px 16px}
+.lb-links a[hidden]{display:none}
 .lb-close{position:absolute;right:10px;top:8px;width:36px;height:36px;border-radius:50%;border:none;background:rgba(0,0,0,.55);color:#fff;font-size:22px;cursor:pointer;z-index:2}
 dialog#lb{position:fixed}
 .leaflet-container{font-family:var(--body)}
@@ -393,8 +417,8 @@ function openPoi(k){
   lb.querySelector('.lb-local').textContent=p.l;
   lb.querySelector('.lb-desc').textContent=p.d;
   lb.querySelector('.lb-map').href=p.m;
-  lb.querySelector('.lb-search').href='https://commons.wikimedia.org/w/index.php?search='+encodeURIComponent(p.l)+'&title=Special:MediaSearch&type=image';
-  const cr=p.cr; lb.querySelector('.lb-credit').innerHTML=cr?`照片：${esc(cr.artist||'未署名')} · ${esc(cr.license)} · <a href="${esc(cr.page)}" target="_blank" rel="noopener">Wikimedia Commons</a>`:'照片待补';
+  const of=lb.querySelector('.lb-off'); if(p.of){of.hidden=false;of.textContent=p.of[0]+' 介绍与照片';of.href=p.of[1];}else{of.hidden=true;}
+  const cr=p.cr; lb.querySelector('.lb-credit').innerHTML=cr?`照片：${esc(cr.artist||'未署名')} · ${esc(cr.license)} · <a href="${esc(cr.page)}" target="_blank" rel="noopener">Wikimedia Commons</a>`:'这里还没有可转载的照片：点上面的官网或 Google 地图链接查看。';
   if(lb.showModal) lb.showModal(); else lb.setAttribute('open','');
 }
 document.querySelectorAll('.tile').forEach(b=>b.addEventListener('click',()=>openPoi(b.dataset.poi)));
